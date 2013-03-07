@@ -1,0 +1,35 @@
+<html>
+<head>
+</head>
+<title></title>
+<style type="text/css"> <!--
+  SPAN.b { color: orange}
+-->
+</style>
+<body>
+<h1>POSIX->NFSv4 Mapping Problems</h1>
+
+<ul>
+<li>Mapped ACLs are two complex for users to read.</li>
+<li>Mapped ACLs are *much* too complex for users to write.</li>
+<li>Server error reporting is limited: any mistake results in
+EINVAL.</li>
+</ul>
+
+<p>The only practical way to edit POSIX-mapped ACLs is with a
+POSIX-aware ACL editor.</p>
+
+<p>So much for a common ACL model.</p>
+
+<p>Also:
+
+<ul>
+<li>Windows ACL editor doesn't like intermingled ALLOWs and DENYs.
+(And who can blame it?)</li>
+<li>The mapping is fragile.
+</ul>
+
+<a href="solutions.html">What can we do?</a>
+
+</body>
+</html>

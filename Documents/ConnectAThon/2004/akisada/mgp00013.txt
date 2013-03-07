@@ -1,0 +1,19 @@
+
+Interoperability Test Scenario (2/3)
+
+
+Test Scenario is just combination of these basic scenarios
+
+Configuration
+enable/disable IPsec
+enable/disable RO
+enable/disable DHAAD
+...
+
+Definition of network topology
+
+Procedure of human operation
+
+Judgement
+
+....

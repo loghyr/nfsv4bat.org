@@ -1,0 +1,312 @@
+		<tr>
+	<td><a href="falkner.pdf">ACLs Tutorial</a></td>
+	<td>Sam Falkner and Lisa Week, Sun Microsystems</td>
+		</tr>
+
+		<tr><td colspan=2>
+	NFS version 4 specifies a new model for Access Control Lists (ACLs). 
+	We will show how the new ACLs may be used, common problems in dealing
+	with them, coexistence with UNIX permissions, idiosyncrasies of many
+	implementations, and directions in future implementations. 
+		</td></tr>
+
+		<tr>
+	<td><a href="hayden.pdf">NFSv4 Co-existence with CIFS in a Multi-protocol Environment</a></td>
+	<td>John Hayden, EMC²</td>
+		</tr>
+
+		<tr><td colspan=2>
+	NFSv4 brings many elements to NFS that have long existed in
+	the Windows CIFS protocol. These include items like delegation
+	(oplocks in CIFS), a rich ACL model, location tags (DFS referrals
+	in CIFS) among others. The similarities between the protocols
+	will be discussed, and a specific approach on how to integrate
+	both protocols on a common filesystem will be described. This
+	includes managing the similarities as well as the differences
+	between locking, access, and permission semantics between the
+	two protocols.
+		</td></tr>
+
+		<tr>
+	<td><a href="mcdougall.pdf">Filebench Tutorial</a></td>
+	<td>Richard McDougall, Sun Microsystems</td>
+		</tr>
+
+		<tr>
+	<td><a href="allison.pdf">Undocumented CIFS</a></td>
+	<td>Jeremy Allison</td>
+		</tr>
+
+		<tr><td colspan=2>
+	The SNIA spec does a good job of starting to document how
+	CIFS really works, but there are many implementation details
+	missing. Many of these details are used by Windows clients for
+	specific Microsoft applications. This talk will cover some of the
+	currently undocumented parts of the CIFS protocol, and explain
+	some of the more obscure parts of the protocol that implementers
+	really need to know in order to support Windows clients correctly.
+		</td></tr>
+
+		<tr>
+	<td><a href="fan.pdf">EMC² Keynote: Information Security Management</a></td>
+	<td>Pam Hynes</td>
+		</tr>
+
+		<tr><td colspan=2>
+	While the innovative pace of Networked Storage continues its
+	trajectory with the spread of new technologies like iSCSI and
+	NFSv5, an ever growing concern is surfacing around the secure
+	protection of this data. This problem transcends a protocol level
+	security discussion or even a platform security discussion - it
+	becomes a discussion of how to manage information security in
+	a networked enterprise. Information security is an end-to-end
+	challenge that can only be effective when achieved through
+	comprehensive integration with the enterprise's information
+	infrastructure. This talk will describe the challenges of
+	making information security management pervasive throughout an
+	infrastructure and look at the technologies EMC is utilizing to
+	meet these challenges.
+		</td></tr>
+
+		<tr>
+	<td><a href="kustarz.pdf">Using Filebench to Evaluate Solaris NFSv4</a></td>
+	<td>Eric Kustarz, Sun Microsystems</td>
+		</tr>
+
+		<tr><td colspan=2>
+	The NFSv4 protocol provides certain possibilities and challenges to its
+	implementation when compared to NFSv3. This talk will discuss how the
+	open sourced framework Filebench was used to evaluate the current
+	Solaris NFSv4 implementation as well to evaluate upcoming proposed
+	changes to the Solaris NFSv4 implementation.
+	<br />
+	This talk will also start the discussion to see if Filebench should be
+	the replacement of SpecSFS.
+		</td></tr>
+
+		<tr>
+	<td><a href="rwong.pdf">Hummingbird Keynote: PC NFS in Windows-Powered NAS</a></td>
+	<td>Robert Wong and Dan Trufasiu</td>
+		</tr>
+
+		<tr><td colspan=2>
+	The NAS market is large enough to support different
+	vendors who are providing solutions to satisfy different
+	needs. Windows-Powered NAS solution is quicker, cheaper and
+	easier to use than the traditional Windows File Server. NFS is
+	one of the protocols used by NAS vendors to ensure file serving to
+	foreign hosts is successful. This presentation will address some
+	of the requirements for a successful PC NFS and NAS integration
+	in the Windows environment.
+		</td></tr>
+
+		<tr>
+	<td><a href="corbin.pdf">Defending Against Broken NFS Clients</a></td>
+	<td>John Corbin, EP Network Storage Performance Lab</td>
+		</tr>
+
+		<tr><td colspan=2>
+	Some end-users install high powered NFS server farms, perhaps
+	clustered NFS servers, while using inexpensive NFS clients only
+	to have a misbehaving client cause the NFS Server to crash. I
+	will take a look at some examples where the clients can crash
+	NFS servers and discuss methods that system administrators and
+	developers can use to minimize the impact of broken NFS clients
+	on the NFS server and improve perceived NFS server quality.
+		</td></tr>
+
+		<tr>
+	<td><a href="davis.pdf">Sun Microsystems Keynote</a></td>
+	<td>Fidelma Russo, Senior Vice President, Data Management Group</td>
+		</tr>
+
+		<tr>
+	<td><a href="talpey.pdf">NFS/RDMA Implementation</a></td>
+	<td>Tom Talpey, Network Appliance</td>
+		</tr>
+
+		<tr><td colspan=2>
+	Significant development has been happening over the past year
+	on NFS/RDMA implementations, as well as related areas such
+	as standards, the Linux OpenIB effort and the emergence of
+	iWARP. This talk will present an update of the NFS/RDMA efforts,
+	and also the many areas which are contributing to NFS/RDMA.
+		</td></tr>
+
+		<tr>
+	<td><a href="baker.pdf">NFS Observability: The Undiscovered Country</a></td>
+	<td>Bill Baker, Sun Microsystems</td>
+		</tr>
+
+		<tr><td colspan=2>
+	The observability of the common NFS implementations has
+	historically been rather weak. This presentation will examine what
+	is available right now and demonstrate some new tips and tricks at
+	rolling your own observability scripts using the dynamic tracing
+	facility in Solaris 10. The presentation will also explore the
+	undiscovered country (with apologies to William Shakespeare),
+	future improvements to NFS observability currently underway
+	at Sun.
+		</td></tr>
+
+		<tr>
+	<td><a href="haswell.pdf">Glamour: An NFSv4-based File System Federation</a></td>
+	<td>Jonathon Haswell, IBM Almaden Research Center</td>
+		</tr>
+
+		<tr><td colspan=2>
+	We describe the design and implementation of "Glamour" - a
+	federated file system layer that enables clients to seamlessly
+	navigate data spread across multiple, heterogeneous and widely
+	distributed file servers. Glamour is not a globally distributed
+	file system. Instead, it enables a set of loosely coupled file
+	servers to function as one. Glamour uses the standard NFSv4
+	protocol and clients, and can operate on any underlying file
+	system.
+	<br />
+	As a first step towards building globally distributed file
+	services, Glamour uses the NFSv4 protocol's referral mechanism to
+	provide a common enterprise-wide namespace across multiple file
+	servers. Beyond this basic infrastructure, Glamour provides data
+	management services that include replication, non-disruptive
+	migration and persistent server-side caching of data. Glamour
+	supports flexible data management by defining "fileset" - a
+	logical unit of data management that can range from a single
+	directory to an entire file system. Filesets can be individually
+	replicated at multiple server locations and migrated across the
+	federation. Each server stores sufficient namespace and data
+	location information to operate independently.	For ease of
+	administration, Glamour centrally manages namespace operations
+	and triggers data management events.
+	<br />
+	We envision that once this mobility of data is established,
+	Glamour can go a step further to determine when and where
+	data needs to be placed with respect to server and network
+	conditions. This will further work to reduce the overall cost of
+	ownership of the server infrastructure, as per-machine utilization
+	rises and the cost of administration and tuning falls.
+	<br />
+	The data management aspects of Glamour have been implemented
+	as a research project on Linux and AIX within the protocol
+	specification and serves standard NFSv4 clients. NFSv4 servers
+	have been enhanced to query location information and detecting
+	fileset boundaries. Migration and server-side caching features
+	are ongoing activities.
+		</td></tr>
+
+		<tr>
+	<td><a href="touretsky.pdf">Accessing NFS from Linux Laptops</a></td>
+	<td>Gregory Touretsky, Intel</td>
+		</tr>
+
+		<tr><td colspan=2>
+	A significant part of the Intel design environment is
+	Linux-based. Engineers use Windows-based laptops to access
+	Linux compute servers at the backend.  As laptops become more
+	powerful these days, the Intel IT department started to pursue an
+	opportunity to utilize them also as mobile design workstations
+	to run Linux-based design flows. As of today, the ultimate data
+	sharing mechanism within the Intel data center is NFSv3. Most
+	of project data, CAD tools and other important parts of the
+	design flow remain on the NFS file servers. Adding roaming
+	mobile clients with dynamically assigned IPs may compromise the
+	existing netgroup-based security model. In this presentation,
+	I'll address the issues we identified switching to a mobile NFS
+	client, several options examined and our chosen directions -
+	both for the short and long term. Some implementation specific
+	notes will also be covered.
+		</td></tr>
+
+		<tr>
+	<td><a href="wong.pdf">The Mirror File System, a Multiple-server File System</a></td>
+	<td>John Wong, CTO, Twin Peaks Software Inc.</td>
+		</tr>
+
+		<tr><td colspan=2>
+	Conventional file systems, whether local (UFS) or distributed
+	(NFS), store files and directories on storage media managed by a
+	single server in a single physical location. This single server
+	file system model presents many limitations in terms of RAS,
+	scalability, performance, and disaster recovery.
+
+	<br />
+	The presentation will include:
+	<ol>
+	<li>Why we need Multiple Server File System.</li>
+	<li>How the Mirror File System (MFS) breaks the single server file system barrier.</li>
+	<li>The basic architecture of the MFS.</li>
+	<li>How the MFS works and interfaces with NFS, UFS and other file systems</li>
+	<li>How the MFS mount and umount functionality works.</li>
+	<li>How MFS's Vnode operations do the mirroring	between files in two servers in real time.</li>
+	<li>How MFS's distributed locking mechanism ensures data coherence between mirrored copies of files on two servers.</li>
+	<li>Questions &amp; Answers</li>
+	</ol>
+		</td></tr>
+
+		<tr>
+	<td><a href="aggarwal.pdf">NFSv4 Checksums</a></td>
+	<td>Alok Aggarwal, Sun Microsystems</td>
+		</tr>
+
+		<tr><td colspan=2>
+	NFS, in the absence of Kerberos, relies on Ethernet CRCs and TCP
+	checksums for data integrity. This presentation will look into
+	the NFS data path and explore some of the deficiencies in the
+	NFS stack from a data integrity standpoint. The presentation will
+	also provide a glimpse of how checksums might be done for NFSv4.
+		</td></tr>
+
+		<tr>
+	<td><a href="flemming-gulabani.pdf">AIX NFS Client Performance Improvements for Database on NAS</a></td>
+	<td>Diane Flemming of IBM and Sanjay Gulabani of Network Appliance</td>
+		</tr>
+
+		<tr><td colspan=2>
+	We continue to see growth in deployment of Network
+	Attached Storage (NAS) and the Network File System (NFS)
+	in business-critical database environments. Reasons for this
+	adoption have included ease of storage deployment, decreased
+	complexity, and decreased total cost of ownership. Due to
+	continued improvements in NFS client implementations, concerns
+	over inadequate performance in this type of environment are
+	being alleviated.
+	<br />
+	This talk will discuss NFS client characteristics that have
+	traditionally been performance bottlenecks for this type of
+	application. We will describe a state-of-the-art NFS client
+	implementation on AIX that eliminates some of the main performance
+	inhibitors. We will also show the performance benefits measured
+	on a typical database workload running in a NAS environment with
+	this new functionality, comparing the results to those captured
+	on previous AIX versions and in SAN environments.
+		</td></tr>
+
+		<tr>
+	<td><a href="shetti.pdf">NAS Technologies</a></td>
+	<td>Milan Shetti, Sun Microsystems</td>
+		</tr>
+
+	<td><a href="krimkevich.pdf">Object-based Storage for Very Large Distributed File Systems</a></td>
+	<td>Brent Welch, Panasas</td>
+		</tr>
+
+		<tr><td colspan=2>
+	Object-based Storage Devices (OSD) are a new emerging standard
+	in the storage industry, with recent demonstrations from Seagate
+	and IBM of devices that conform to the SNIA T10 OSD standard,
+	and file system products from Panasas and Lustre that use
+	object-based technology. This talk explains OSD, and goes on to
+	discuss the impact that OSD has on the design and implementation
+	of a distributed file system layered over OSD. Object-based
+	storage devices are designed to be secure building blocks that
+	can be aggregated together in large numbers to provide large,
+	high performance systems. When building a file system on object
+	storage, there are issues of metadata management, scaling the
+	file system to support petabytes of data and hundreds of GB/s of
+	throughput, fault tolerance, and internal system management so
+	that even a very large storage system remains manageable. The talk
+	will compare some of the different applications of object-storage,
+	including Lustre and Panasas. Finally, we will discuss the
+	performance properties of the scalable, object-based Panasas
+	file system.
+		</tr>

@@ -1,0 +1,13 @@
+
+Conformance Test Tool (2/2)
+
+
+Features of Conformance Test Tool
+
+Over 450 tests
+Running Automatically
+It takes 6 hours.
+
+HTML output
+Test Results (PASS / FAIL)
+Log of Test Procedure

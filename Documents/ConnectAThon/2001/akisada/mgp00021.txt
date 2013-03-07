@@ -1,0 +1,20 @@
+
+You Are Welcome !!
+
+
+Requirements to a target implementation
+
+MIP6 without IPsec
+
+Dynamic Home Agent Address Discovery
+Request Message
+use 143 as ICMP Type by default
+
+Reply Message
+use 144 as ICMP Type by default
+
+Mobile IPv6
+
+You are welcome to ask me for testing your implementation in this event.
+
+Our booth is #305, TAHI PROJECT.

@@ -1,0 +1,15 @@
+
+Activities of TAHI
+
+
+Conformance Test
+Development of test tools
+Test and report
+
+Interoperability Test
+Making test scenarios
+Development of test tools
+Test and report
+
+Hosting Test Event
+We had held test events twice.

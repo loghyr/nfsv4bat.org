@@ -1,0 +1,157 @@
+/*
+ * Skeleton of NFS Version 4 definitions ... a starting set of differences
+ * from NFS Version 3. 
+ * Mike Eisler	- mre@Eng.Sun.Com - March 4, 1997.
+ */
+
+/*
+ * new SECMISMATCH error code to let client cleanly detect when the
+ * security it has used on the last request is wrong.
+ */
+enum nfsstat4 {
+NFS4_OK = 0;
+NFS4ERR_PERM = 1;
+...
+NFS4ERR_SEC_MISMATCH = 10009;
+};
+
+
+/*
+ * NFS V4 file handle definition has the new volatile flag to indicate to
+ * client that the file handle may not be persistent, hence it should
+ * cache the path name or component name it used to lookup the file.
+ */
+struct nfs_fh4 {
+	u_int	flag;
+	opaque	data<NFS4_FHSIZE>;
+};
+
+/*
+ * Flag bit for nfs_fh4
+ */
+const FH4_VOLATILE = 0x1;
+
+
+/*
+ * Where pathname of directory operation is based on:
+ */
+enum dirop_base {
+
+/*
+ * Relative to a supplied file handle.
+ */
+DIROPBASE4_RELATIVE = 0;
+
+/*
+ * Relative to the absolute root of the server
+ */
+DIROPBASE4_ABSOLUTE = 1;
+
+/*
+ * Relative to the public root of the server
+ */
+DIROPBASE4_PUBLIC = 2;
+};
+
+union dirop_fh switch (dirop_base basedon) {
+case RELATIVE:
+	nfs_fh4 dir;
+default:
+	void;
+};
+
+/*
+ * common argument for NFS V4 directory (e.g. LOOKUP) operations
+ */
+struct diropargs4 {
+	dirop_fh fh;
+	filename4 name;
+	u_int flag;
+};
+
+/*
+ * Flag bits for directory operations.
+ */
+
+/*
+ * Canonical pathname of / separated components.
+ */
+const DIROP4_MCL_CANONICAL 	= 0x01;
+
+/*
+ * Native pathname of components separated by server specific delimiters.
+ */
+const DIROP4_MCL_NATIVE		= 0x02;
+
+/*
+ * If DIROP4_MCL_*, permit server-side mount point crossing.
+ */
+const DIROP4_CROSS		= 0x04;
+
+/*
+ * Ignore case on operation.
+ */
+const DIROP4_CASE_INSENSITIVE	= 0x08;
+
+/*
+ * Don't preserve case on operation.
+ */
+const DIROP4_CASE_NOTPRESERVED	= 0x10;
+
+
+
+/*
+ * SECINFO: Get permitted list of security flavors for accesssing a given
+ * file.
+ */
+
+struct secinfo {
+	u_int	flavor;
+	opaque	flavor_specific<>;
+};
+
+/*
+ * flavor_specific stuff for RPCSEC_GSS. See
+ * ftp://ds.internic.net/internet-drafts/draft-ietf-oncrpc-rpcsec_gss-02.txt
+ */
+
+struct NFS4_rpcsec_gss_specfic { 
+	/*
+	 * Mechanism identifier. E.g. the object identifier for Kerberos V5.
+	 */
+	opaque gss_oid<>;
+
+	/*
+	 * service: one of rpc_gss_svc_{none, integrity, privacy}
+	 */
+	enum rpc_gss_service_t service;
+
+	/*
+	 * Quality of protection (crypto algorithm).
+	 */
+	u_int qop;
+};
+
+struct SECINFO4resok {
+	struct secinfo	secinfo_list<>;
+};
+
+union SECINFO4res switch (nfsstat4 status) {
+case NFS4_OK:
+	SECINFO4resok	resok;
+default:
+	SECINFO4resfail	resfail;
+};
+
+
+program NFS_PROGRAM {
+	version NFS_V4 {
+		void
+		NFSPROC4_NULL(void) = 0;
+		...
+
+		SECINFO4res
+		NFSPROC4_SECINFO(SECINFO4args) = XXX;
+		...
+	} = 4;
+} = 100003;

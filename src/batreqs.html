@@ -1,0 +1,166 @@
+<h1> BakeAThon and ConnectAThon requirements</h1>
+<h2> Local ethernet network for testing</h2>
+<ul>
+<li>Should be firewalled from host site's intranet
+<ul>
+<li>incoming to protect attendees</li>
+<li>outgoing to protect host</li>
+</ul>
+</li>
+<li>Should be firewalled from incoming traffic from internet
+<ul>
+<li>if external access is necessary, use ssh keys to control</li>
+<li>outbound traffic should
+<ul>
+<li>allow all ports by default</li>
+<li>block ones that are considered harmful</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Unfiltered outgoing connections to the internet
+<ul>
+<li>this may be contrary to host's policy
+<ul>
+<li>not all attendees use vpn</li>
+<li>following are minimal services necessary
+<ul>
+<li>http, https</li>
+<li>ssh</li>
+<li>git</li>
+<li>vpn protocols</li>
+<li>imap, pop</li>
+</ul>
+</li>
+<li>someone onsite with the authority and ability to permit additional access as requested by attendees</li>
+</ul>
+</li>
+<li>Any NAT must support multiple VPN connections to external sites</li>
+<li>Should be responsive under load
+<ul>
+<li>Vague, but the host will be constantly reminded when the internet connection resembles a wet straw</li>
+</ul>
+</li>
+<li>Both wired and wireless networks need this access</li>
+</ul>
+</li>
+<li>Wireless access to test network
+<ul>
+<li>preferred, not a hard requirement</li>
+</ul>
+</li>
+<li>4 static ip per person
+<ul>
+<li>minimum requirement, should poll for more</li>
+<li>this acknowledges that a lot of testing is on virtual machines</li>
+<li>must include IPv4 and IPv6 addresses
+<ul>
+<li>event provided IPv6 addresses must not be link-local</li>
+</ul>
+</li>
+<li>global IPv6 routing should be provided by the host, not mandated</li>
+</ul>
+</li>
+<li>DHCP for both networks</li>
+<li>static DNS entries (for servers)
+<ul>
+<li>new sub-domains must be easy to create for some testing scenarios</li>
+<li>FedFS is driving the need to make adjustments</li>
+<li>all ip must be resolvable (IPv4 and IPv6)</li>
+<li>there must be a domain name
+<ul>
+<li>nfsv4bat.org</li>
+<li>should also be the NFSv4 domain name
+<ul>
+<li>with a TXT record</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>DNS server should also provide global DNS</li>
+</ul>
+</li>
+<li>krb5 server
+<ul>
+<li>not always used, but should be available</li>
+</ul>
+</li>
+<li>ldap/nis service with some test identities</li>
+<li>ntp server on the test network sync'ed to the outside world</li>
+<li>immediate access to all firewall, router, dhcp, dns, etc. configuration by someone with ability and authority to fix problems</li>
+</ul>
+<h2> Physical needs</h2>
+<ul>
+<li>2 network ports and cables per person</li>
+<li>2 power outlets per person
+<ul>
+<li>Might need more, gather requirements</li>
+<li>Might need electrician the first day</li>
+</ul>
+</li>
+<li>2'x3' working space per person</li>
+<li>Separate room for discussions
+<ul>
+<li>No presentations in testing room</li>
+<li>No other distractions (cough, World Cup, cough)</li>
+</ul>
+</li>
+<li>Separate machine room for noisy equipment
+<ul>
+<li>Must be able to have machines on same network</li>
+<li>Fast connection between rooms</li>
+<li>Will need AC</li>
+<li>Attendees will need access to machine room OR RPB (remote power boot) and console</li>
+</ul>
+</li>
+<li>Printed copy of network configuration at each station
+<ul>
+<li>email copy is nice, but not sufficient</li>
+</ul>
+</li>
+<li>Small conference room for conversation and conference calls</li>
+<li>Adequate and secure parking</li>
+</ul>
+<h2> Security</h2>
+<ul>
+<li>Minimal access is from 8am to 8pm</li>
+<li>Must be able to leave equipment (i.e., laptops) in testing room</li>
+<li>Host must not touch arriving equipment.
+<ul>
+<li>May only be opened/powered if owner is present</li>
+</ul>
+</li>
+<li>I.e., security is to not only protect the interests of the host but the visitors</li>
+<li>Attendees must be able to easily get from test room to exterior
+<ul>
+<li>Cell phone calls</li>
+</ul>
+</li>
+</ul>
+<h2> NDA</h2>
+<ul>
+<li>Not always a requirement</li>
+<li>Please base off of <a href="http://www.connectathon.org/cthon_liability_2010.pdf" class="external free" title="http://www.connectathon.org/cthon_liability_2010.pdf" rel="nofollow">http://www.connectathon.org/cthon_liability_2010.pdf</a></li>
+<li>Cameras
+<ul>
+<li>Even if no NDA, must ask permission before taking pictures of equipment</li>
+<li>It is nice to take pictures of attendees, but please make sure you ask first and do not capture any screen shots</li>
+</ul>
+</li>
+<li>One benefit of hosting is to bring in people who normally would not attend
+<ul>
+<li>No competitive analysis</li>
+</ul>
+</li>
+</ul>
+<h2> NDA vs Open talks</h2>
+<ul>
+<li>If presentations are being made and there is a desire to share the notes with people outside the event
+<ul>
+<li>Hold the talks in a separate venue than the testing room</li>
+<li>Pre-announce the talks are open to the public</li>
+<li>Before each talk, make an announcement similar to the IETF Note Well Agreement - <a href="http://www.ietf.org/NOTEWELL.html" class="external free" title="http://www.ietf.org/NOTEWELL.html" rel="nofollow">http://www.ietf.org/NOTEWELL.html</a></li>
+</ul>
+</li>
+</ul>
+

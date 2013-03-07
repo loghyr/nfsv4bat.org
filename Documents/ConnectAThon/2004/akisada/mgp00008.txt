@@ -1,0 +1,17 @@
+
+Project Activity
+
+
+We are developping ...
+
+Conformance Test Suits
+
+Interoperability Test Scenarios
+
+We are joining to ...
+
+Interoperability test event
+Connectathon
+ETSI plugtests
+TAHI Interoperability test event
+...

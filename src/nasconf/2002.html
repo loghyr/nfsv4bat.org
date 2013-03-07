@@ -1,0 +1,242 @@
+		<tr>
+			<td><a href="spinnaker.ppt">High Performance and Distributed NAS Server Architecture for Scalable and Global NFS file systems</a></td>
+			<td>Mike Kazar, CTO, Spinnaker Networks</td>
+		</tr>
+		<tr><td colspan=2>
+	Many different architectures exist in the marketplace today to provide
+	NFS file serving, from NAS to general-purpose systems with DAS.  This
+	presentation will discuss a new NAS architecture from Spinnaker
+	Networks, based upon a distribute file system which enables the IT
+	administrator to build large, high performance NFS file systems with a
+	global name space.
+		</td></tr>
+
+		<tr>
+			<td><a href="shepler.pdf">NFS version 4</a></td>
+			<td>Spencer Shepler, Sun Microsystems</td>
+		</tr>
+		<tr><td colspan=2>
+	RFC3010 was the start.  Implementations were started, issues were
+	found.  The update to RFC3010 (NFS version 4) is complete and coming
+	to an RFC list near you.  Will take a look at where the NFS version 4
+	implementation community is currently at and what changed from RFC3010
+	and where the NFS version 4 standard is going.
+		</td></tr>
+
+		<tr>
+			<td><a href="adamson.pdf">NFSv4 Open Source Reference Implementation Project Update</a></td>
+			<td>Andy Adamson, CITI-University of Michigan</td>
+		</tr>
+		<tr><td colspan=2>
+	Andy will present an update on both the Linux and OpenBSD NFSv4
+	implementations including namespace construction, identity
+	resolution, ACL mapping, and a road-map for NFSv4 inclusion into
+	the Linux and OpenBSD kernels.
+		</td></tr>
+
+		<tr>
+			<td><a href="hummingbird.pdf">Hummingbird Keynote:  Hummingbird NFS Maestro = NFSv4</a></td>
+			<td>Dan Trufasiu, Director of Connectivity R&amp;D, Hummingbird</td>
+		</tr>
+		<tr><td colspan=2>
+	What does the NFS protocol offer the Windows PC world?  What is the
+	bottom line on NFSv3?  Topics discussed will include Hummingbird's
+	implementation of NFSv4:  what has been done, how it was done, and the
+	restrictions of the implementation.
+		</td></tr>
+
+		<tr>
+			<td><a href="callaghan.pdf">NFS at 10Gb/sec</a></td>
+			<td>Brent Callaghan, Sun Microsystems</td>
+		</tr>
+		<tr><td colspan=2>
+	While NFS enjoys the ubiquity and interoperability of TCP/IP networking,
+	it is facing a growing performance barrier inherent in the architecture
+	of host networking stacks.  Clients and servers are unable to keep up
+	with a "fire hose" of data.  RDMA provides direct data placement and
+	network offload into hardware, decoupling network performance from host
+	performance.  NFS can use RDMA to take full advantage of the performance
+	benefits of multi-Gigabit Ethernet and Infiniband networks.  This
+	presentation will describe RDMA, how NFS will use it, and how it will
+	affect the balance of SAN vs NAS storage.
+		</td></tr>
+
+		<tr>
+			<td><a href="emulex.pdf">Network Adapters for NFS at 10Gb and Beyond</a></td>
+			<td>Tom Hotchkiss VP, Engineering, Emulex</td>
+		</tr>
+		<tr><td colspan=2>
+	NFS will require Network Adapter support to run at 10Gb and beyond.
+	Hardware offload and new protocols such as RDMA will be required to
+	address the shortcomings of today's approach.  Multi-protocol Network
+	Adapters interoperate with existing protocols and provide a migration
+	path to RDMA and other future technologies.
+		</td></tr>
+
+		<tr>
+			<td><a href="jiang.pdf">NFS Clustered Filesystem</a></td>
+			<td>Xiaoye Jiang, EMC</td>
+		</tr>
+		<tr><td colspan=2>
+	Scaling NFS server throughput can be accomplished in
+	several ways; most commonly NFS servers approach the
+	challenge of scaling by devoting larger and larger
+	machines to the task, which creates larger single points
+	of failure.  An alternate approach to achieving
+	scalability is using multiple servers in a cluster
+	configuration.  This approach has not been widely
+	adopted because of the challenge of maintaining cache
+	coherency between the nodes.  Leveraging MPFS technology
+	natively on EMC Celerra NFS servers allows you to build
+	incrementally scalable amounts of front-end capacity to
+	a shared filesystem.  This allows you to treat your NFS
+	serving requirements much like you treat your storage
+	requirements, scaling incrementally to meet your
+	front-end I/O requirements.
+		</td></tr>
+
+		<tr>
+			<td><a href="sinha.pdf">NFS v4 - Customer problems and NetApp's solutions</a></td>
+			<td>Amit Sinha, Multiprotocol Product Marketing Manager, Network Appliance</td>
+		</tr>
+		<tr><td colspan=2>
+	A brief overview of typical customer NFS environment, their current
+	challenges with NFS v2 and v3. It will then lead to how NFS v4 will
+	benefit these customers and their environments, for example security,
+	performance.
+	<br />
+	In addition, the presentation will also focus on how NetApp
+	is driving the NFS v4 development efforts with partnerships
+	from leading NFS v4 client vendors.
+		</td></tr>
+
+		<tr>
+			<td><a href="intel.pdf">Migrating from AFS to NFS for Global Data Sharing</a></td>
+			<td>Travis Broughton, Intel</td>
+		</tr>
+		<tr><td colspan=2>
+	For the past decade, Intel has been using AFS to share design data
+	globally, with NFS (protocol versions 2 and 3) used to provide higher
+	performance for data with no inter-site access requirements.  With the
+	EOL of AFS announced by IBM, we have been examining other technologies
+	to provide global access to data, including OpenAFS, NFS (protocol
+	versions 3 and 4), and caching NFS proxy solutions.  This presentation
+	will describe the existing AFS-based environment, the advantages we see
+	in NFS (especially NFSv4), and the challenges -- both technical and
+	political -- that we are facing when considering migrating to NFS-based
+	solutions.
+		</td></tr>
+
+		<tr>
+			<td><a href="vendors_discussion.txt">NFSv4 Vendor's Discussion: Notes</a></td>
+			<td>The Vendors</td>
+		</tr>
+
+		<tr>
+			<td><a href="hayden.pdf">EMC Keynote: Policy Based Management and Tiered Backends</a></td>
+			<td>John Hayden, EMC</td>
+		</tr>
+		<tr><td colspan=2>
+	Storage platforms are becoming more and more a commodity
+	available at specific tiered levels - running the gamut
+	from JBOD to simple RAID arrays, to complete storage
+	subsystems with integrated features such as replication
+	and snapshots.  NAS devices, attached to these different
+	tiers of storage from many different vendors, are
+	presented with new and unique management and
+	functionality challenges.  Tools and strategies to
+	manage the transparent storage provisioning and
+	migration of data from one tier to another, as well as
+	policy based engines to automatically match business
+	requirements (service level agreements, recoverability,
+	replication, performance, availability etc.) to the
+	available storage tiers are needed in such
+	environments.
+		</td></tr>
+
+		<tr>
+			<td><a href="iozone.pdf">Analyzing NFS Client Performance with IOzone</a></td>
+			<td>Tom McNeal, TRM Consultants and Don Capps, Hewlett-Packard</td>
+		</tr>
+		<tr><td colspan=2>
+	This paper will review the basic structure of IOzone, a file system
+	benchmark which may be used for assessing client performance issues in
+	an NFS client/server environment.  It will review IOzone's use of file
+	IO for its base measurements, and will discuss possible system and
+	network variations based on IO type, SMP, cache management, process vs.
+	thread usage, transport type, etc.  It will also review the system
+	parameters useful in modifying system behavior when testing with IOzone,
+	in order to investigate client behavior in the most extensive and
+	illustrative way.
+		</td></tr>
+
+		<tr>
+			<td><a href="thakur.pdf">NFS: Pushing the Limit</a></td>
+			<td>Smita Thakur, Sun Microsystems</td>
+		</tr>
+
+		<tr>
+			<td><a href="z-force.pdf">Deploying Scalable Switched NAS Infrastructures within NFS Environments</a></td>
+			<td>Vladimir Miloushev, CTO and Founder, Z-force</td>
+		</tr>
+		<tr><td colspan=2>
+	"file switch" will enable the first  "NAS Array", an unlimited number of
+	commodity, low-cost NAS boxes that can be connected together to provide
+	aggregated performance and unlimited scalability at up to wire speeds,
+	in an environment that is truly manageable as a single entity.  This
+	session will discuss the file switch in more detail and the challenges
+	with switching file transactions at wire speeds.  It will look at the
+	NFS protocol and its strengths and limitations for large fileserving
+	environments.  The session will look at the unique issues associated
+	with NFS interoperability, security and locking mechanisms to provide an
+	aggregated NAS environment.
+		</td></tr>
+
+		<tr>
+			<td><a href="beepy3.pdf">Network Appliance Keynote: Storage Networking and NFS</a></td>
+			<td>Brian Pawlowski, Vice President, Network Appliance</td>
+		</tr>
+		<tr><td colspan=2>
+	NFS is one of several options a customer has for storage networking
+	today.  What are its strengths? What applications are best suited to
+	NFS? Where does NFS face challenges? This talk will put NFS in the
+	broader context of storage networking.
+		</td></tr>
+
+		<tr>
+			<td><a href="jelinek.pdf">Managing NFS in Solaris using CIM/WBEM</a></td>
+			<td>Sarah Jelinek, Sun Microsystems</td>
+		</tr>
+		<tr><td colspan=2>
+	CIM/WBEM is a technology that is gaining ground in the
+	data resource management area. Many vendors, including
+	Sun Microsystems, are planning on rolling out data
+	resource management products based on the DMTF CIM and
+	SNIA Bluefin specifications. NFS in Solaris will be
+	fully manageable via CIM/WBEM.  This talk will present
+	the full Solaris NFS CIM model, along with examples on
+	how to use it in Solaris.
+		</td></tr>
+
+		<tr>
+			<td><a href="thurlow.pdf">Replication and Migration</a></td>
+			<td>Rob Thurlow, Sun Microsystems</td>
+		</tr>
+		<tr><td colspan=2>
+	Replication and migration of data is critical functionality for many.
+	As NFS Version 4 nears standardization, the IETF NFSv4 working group
+	focus is shifting to this area with a new replication/migration protocol
+	as well as changes to the core protocol to better support it.  In this
+	presentation, you will hear about the recent progress and current status
+	of this work.
+		</td></tr>
+
+		<tr>
+			<td><a href="wittle.pdf">DAFS Extensions for NFS</a></td>
+			<td>Mark Wittle, Network Appliance</td>
+		</tr>
+		<tr><td colspan=2>
+	DAFS, the Direct Access File System, extends NFS version 4 with
+	additional capabilities.  The presentation will focus on the motivation,
+	approach, and implementation of these features.
+		</td></tr>

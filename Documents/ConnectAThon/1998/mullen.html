@@ -1,0 +1,247 @@
+<HTML>
+<HEAD>
+   <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+   <META NAME="GENERATOR" CONTENT="Mozilla/4.04 [en] (X11; I; SunOS 5.7 sun4u) [Netscape]">
+</HEAD>
+<BODY>
+
+<H1>
+<B><FONT SIZE=+2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Transport Specific
+- RPC&nbsp;&nbsp;&nbsp;&nbsp; (udp,tcp)<BR>
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Shawn Mullen --- shawn@austin.ibm.com<BR>
+<BR>
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ipv6&nbsp; RFC 1883<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; API to support ipv6 RFC-2133<BR>
+<BR>
+<BR>
+<BR>
+<BR>
+struct sockaddr_in {&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; uchar_t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+sin_len;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; sa_family_t&nbsp;&nbsp;&nbsp;
+sin_family;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;-- AF_INET<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in_port_t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+sin_port;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; struct in_addr sin_addr;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<I>sizeof(int)</I>&nbsp;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; uchar_t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+sin_zero[8];<BR>
+}<BR>
+<BR>
+<BR>
+struct sockaddr_in6 {<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; u_char&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+sin6_len;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; u_char&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+sin6_family;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt;-- AF_INET6<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; u_int16_t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+sin6_port;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; u_int32_t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+sin6_flowinfo;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; struct&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+in6_addr&nbsp;&nbsp; sin6_addr; <I>sizeof(int)*4</I></FONT></B></H1>
+
+<PRE><B><FONT SIZE=+2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+};</FONT></B>
+
+</PRE>
+
+<PRE></PRE>
+
+<PRE></PRE>
+
+<PRE></PRE>
+
+<PRE></PRE>
+
+<PRE></PRE>
+
+<PRE></PRE>
+
+<PRE></PRE>
+
+<PRE></PRE>
+
+<PRE>page1</PRE>
+
+<PRE></PRE>
+
+<PRE></PRE>
+
+<PRE>
+</PRE>
+
+<PRE></PRE>
+
+<PRE></PRE>
+
+<H1>
+<BR>
+<BR>
+
+<HR WIDTH="100%"><BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <B><FONT SIZE=+4>Client RPC<BR>
+</FONT><FONT SIZE=+2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; clnt ops<BR>
+<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; clntudp_create()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;---<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; clntudp_call()<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; clntudp_abort()<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; clntudp_geterr()<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; clntudp_freeres()<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; clntudp_destroy()<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; clntudp_control()&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&lt;---<BR>
+<BR>
+call to clntudp_create()<BR>
+call to clnttcp_create()&nbsp;<BR>
+<BR>
+returns client handle {<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; cl_private&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+---> cu_data;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( malloc'ed, freed, controled<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+in RPC routines )<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }<BR>
+struct cu_data {<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; int&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+cu_sock;<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; struct sockaddr_in6 cu_ra6;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+instead of struct sockaddr_in cu_ra4<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...<BR>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; }</FONT></B><BR>
+<BR></H1>
+
+<PRE></PRE>
+
+<PRE></PRE>
+
+<PRE>
+
+<HR WIDTH="100%"></PRE>
+
+<H1>
+client handle create</H1>
+
+<PRE><B><FONT SIZE=+2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+CLINET *
+clntudp_create (sockaddr_xxx&nbsp; remote_address,...,&nbsp;&nbsp;&nbsp;&nbsp; int socket)
+
+
+
+if ( ((struct sockaddr_in *)raddr)->sin_family == AF_INET6 ) {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; copy(remote_address into&nbsp; cl_private)
+
+else it's ipv4 so map to ipv6
+sin6_addr&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ::FFFF:&lt;IPv4-address></FONT></B>
+</PRE>
+
+<PRE></PRE>
+
+<PRE></PRE>
+
+<PRE>
+<B><FONT SIZE=+2>If socket == ANYSOCK -- no problem create an AF_INET6 sock
+
+If passed in a socket, user getsockname(socket) to determine if
+it AF_INET or AF_INET6
+
+
+
+clntudp_control( ,,CLGET_SERVER_ADDR)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; if you've mapped, un-mapp and return sockaddr_in (ipv4)</FONT></B>
+
+
+
+</PRE>
+
+<PRE></PRE>
+
+<PRE></PRE>
+<FONT SIZE=+4>&nbsp;</FONT>
+<BR><FONT SIZE=+4></FONT>&nbsp;
+<BR><FONT SIZE=+4></FONT>&nbsp;
+<BR><FONT SIZE=+4></FONT>&nbsp;
+<BR><FONT SIZE=+4></FONT>&nbsp;<FONT SIZE=+4></FONT>
+
+<P><FONT SIZE=+4>&nbsp;</FONT>
+<PRE></PRE>
+
+<PRE></PRE>
+
+<PRE></PRE>
+
+<PRE></PRE>
+
+<PRE>page 3</PRE>
+
+<PRE><FONT SIZE=+3></FONT></PRE>
+
+<PRE><FONT SIZE=+3></FONT></PRE>
+
+<PRE><FONT SIZE=+3></FONT></PRE>
+
+<PRE><FONT SIZE=+3></FONT></PRE>
+
+<PRE><FONT SIZE=+3></FONT></PRE>
+
+<PRE><FONT SIZE=+3></FONT></PRE>
+
+<PRE><FONT SIZE=+3></FONT></PRE>
+<BR>
+
+<HR WIDTH="100%">
+<PRE>
+<B><FONT SIZE=+4>Server transport changes
+
+
+</FONT><FONT SIZE=+2>Transport Specific Server
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; svctcp_recv,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; svctcp_stat,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; svctcp_getargs,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; svctcp_reply,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; svctcp_freeargs,
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; svctcp_destroy
+
+typedef struct SVCXPRT {
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; int&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; xp_sock;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; u_short&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; xp_port;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /* associated port number */
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...
+>>>&nbsp;&nbsp;&nbsp;&nbsp; struct sockaddr_in xp_raddr;&nbsp;&nbsp;&nbsp;&nbsp; /* remote address */&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; struct opaque_auth xp_verf;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /* raw response verifier */
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; caddr_t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; xp_p1;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /* private: for use by svc ops */
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; caddr_t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; xp_p2;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /* private: for use by svc ops */
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; caddr_t&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; xp_p3;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; /* private: for use by svc lib */
+} SVCXPRT;
+
+
+svcxxx_yyyyy()&nbsp;&nbsp; svcxxx_yyyyy2()
+
+extern SVCXPRT *svcudp_create();&nbsp;&nbsp; &lt;&lt;&lt; ipv4
+extern SVCXPRT *</FONT><I><TT><FONT SIZE=+3>svcudp_create2</FONT></TT></I><FONT SIZE=+2>();&nbsp; &lt;&lt;&lt; ipvx&nbsp;&nbsp; pass in address_family
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pass in len (just in case)
+
+
+
+misc
+
+lib calls to determine and map addresses and names&nbsp;
+see:
+
+draft-ietf-ipngwg-bsd-api-00.txt&nbsp;
+Advanced Sockets API for IPv6 RFC2292
+
+
+
+
+
+contractors whom do this type of work:
+
+http://journyx.com/consulting.html</FONT></B></PRE>
+
+</BODY>
+</HTML>

@@ -1,0 +1,17 @@
+
+TAHI MIP6 tests
+
+
+Home Agent - 22 tests
+Dynamic Home Agent Address Discovery
+Home Registration
+
+Correspondent Node - 6 tests
+Communication with Binding Cache
+Communication without Binding Cache
+
+Mobile Node
+TBD
+
+IPsec
+TBD

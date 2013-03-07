@@ -1,0 +1,25 @@
+<html>
+<head>
+</head>
+<title></title>
+<body>
+<h1>Automatic inheritance</h1>
+
+<p>Automatic inheritance is not automatic!  It is performed by the ACL
+editor, not the server.
+
+<p>(Think of it as a fancy "chmod -R".)
+
+<p>NFSv4.1 adds two new acl attributes, which support automatic
+inheritance:
+
+<ul>
+<li>dacl: ALLOW and DENY aces
+<li>sacl: AUDIT and ALARM aces
+</ul>
+
+<p>Adds a new INHERITED_ACE flag.  ACEs marked with this flag will be
+replaced by automatic inheritance.
+
+</body>
+</html>

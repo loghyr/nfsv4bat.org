@@ -1,0 +1,15 @@
+
+What is G6test ?
+
+
+G6
+
+French group
+Investigation of development and experimentation of IPv6
+
+
+G6test
+
+Sub-group of G6
+Developing tests for IPv6
+Since july 2000

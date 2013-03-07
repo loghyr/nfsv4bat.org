@@ -1,0 +1,19 @@
+
+Interoperability Test Tools
+
+
+These tools support interoperability test.
+
+Packet analyzer
+                                enable to decode MIP6 packets
+
+Traffic generator
+
+Utilities
+UDP echo program
+Multicast program
+Routing protocol packet analyze tool
+... etc.
+
+v6prac-1.0
+released at February 8th, 2001

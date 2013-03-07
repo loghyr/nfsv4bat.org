@@ -1,0 +1,21 @@
+
+Interoperability Test Scenarios
+
+
+Test scenarios are used for interoperability test.
+
+Coverage
+
+Plug & Play IPv6 Basic Specifications
+Basic Communication
+Redirect
+Source Routing
+Tunnel
+
+Routing
+RIPng
+BGP4+
+
+IPsec
+AH
+ESP

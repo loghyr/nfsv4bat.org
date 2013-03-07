@@ -1,0 +1,35 @@
+<html>
+<head>
+</head>
+<title></title>
+<style type="text/css"> <!--
+  SPAN.b { color: blue}
+-->
+</style>
+<body>
+<h1>"POSIX" ACLs</h1>
+
+<pre><span class="b">
+user :      :rw-</span>
+user :marius:rw-<span class="b">
+group:      :rw-</span>
+group:staff :rw-
+group:users :rw-
+mask :      :rw-<span class="b">
+other:      :r--
+</span></pre>
+
+<pre><span class="b">
+user :      :rw-</span>
+user :marius:r--<span class="b">
+group:      :rw-</span>
+group:staff :rw-
+group:users :rw-
+mask :      :rw-<span class="b">
+other:      :r--
+</span></pre>
+
+<p>Next: <a href="nfsv4.html">NFSv4 ACLs</a>
+
+</body>
+</html>

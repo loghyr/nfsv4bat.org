@@ -1,0 +1,94 @@
+
+<HTML>
+
+<HEAD>
+<META HTTP-EQUIV="Context-Type" CONTEXT="text/html;charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft Internet Assistant for PowerPoint 97">
+ <TITLE>PPT Slide</TITLE> 
+</HEAD>
+
+<BODY  BGCOLOR=white  TEXT="#202020"  LINK="#6600ff"  VLINK="#cc3399" >
+
+ <H1>PPT Slide</H1> 
+ <P><UL>
+Example #1 - Using Streams Interface
+<BR></UL><UL>
+ 
+</UL><UL>
+	import java.io.*;
+</UL><UL>
+	import java.net.*;
+</UL><UL>
+	import sunsoft.onc.WebNFS.*; 
+</UL><UL>
+	// 
+</UL><UL>
+	// create connection to host
+</UL><UL>
+	//
+</UL><UL>
+	URL url = new URL( "nfs://www.sun.com/tmp/file.txt");
+</UL><UL>
+	File nfile = new File(url)
+</UL><UL>
+	if ( nfile.isFile() ) { 
+</UL><UL>
+		System.out.println("file is file"); 
+</UL><UL>
+	} 
+</UL><UL>
+	//
+</UL><UL>
+	// is directory
+</UL><UL>
+	//
+</UL><UL>
+	if ( nfile.isDirectory() ) { 
+</UL><UL>
+		 System.out.println("file is directory");
+</UL><UL>
+	}
+</UL><UL>
+	//
+</UL><UL>
+	// create file input stream
+</UL><UL>
+	//
+</UL><UL>
+	FileInputStream nfis = null; 
+</UL><UL>
+	nfis = new FileInputStream(nfile); 
+</UL><UL>
+	//
+</UL><UL>
+	// read through file
+</UL><UL>
+	//
+</UL><UL>
+	for ( int count =0; ; count++ ) {
+</UL><UL>
+		 int val = (byte) nfis.read();
+</UL><UL>
+		 if ( val == -1 ) break;
+</UL><UL>
+		 System.out.write(val);
+</UL><UL>
+
+</UL><UL>
+	}
+</UL><UL>
+	System.out.println("read " + count + " bytes ");</UL></P>
+<P></P> 
+<P>
+<TABLE>
+  <TD HEIGHT=100 WIDTH=100></TD>
+  <TD HEIGHT=100 WIDTH=100> <A HREF="tsld002.htm">Next slide</A> </TD>
+  <TD HEIGHT=100 WIDTH=150> <A HREF="tsld001.htm">Back to first slide</A> </TD>
+</TABLE>
+<BR>
+</P>
+
+
+
+</Body>
+</HTML>

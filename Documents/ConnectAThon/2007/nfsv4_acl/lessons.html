@@ -1,0 +1,51 @@
+<html>
+<head>
+</head>
+<title></title>
+<style type="text/css"> <!--
+  SPAN.b { color: blue}
+-->
+</style>
+<body>
+<h1>Spec changes</h1>
+
+<ul>
+<li>Change this:
+
+	<blockquote>"Some server platforms may provide access control
+	functionality that goes beyond the UNIX-style mode attribute,
+	but which is not as rich as the NFS ACL model.  So that users
+	can take advantage of this more limited functionality, <span
+	class="b">the server may indicate that it supports ACLs as long
+	as it follows the guidelines for mapping between its ACL model
+	and the NFS version 4 ACL model.</span>"</blockquote>
+
+To this:
+
+	<blockquote>"The NFS version 4 ACL model is quite rich. Some
+	server platforms may provide access control functionality that
+	goes beyond the UNIX-style mode attribute, but which is not as
+	rich as the NFS ACL model.  So that users can take advantage of
+	this more limited functionality, <span class="b">the server may
+	support the acl attribute by mapping between its ACL model and
+	the NFS version 4 ACL model.  Such servers SHOULD nevertheless
+	accept any NFSv4 ACL, and ensure that the ACL they actually
+	store or enforce is at least as strict as the NFSv4 ACL that was
+	set."</span></blockquote>
+
+
+<li>Updated draft-ietf-nfsv4-acl-mapping: now implementation advice
+and experience rather than POSIX-over-NFSv4 protocol.
+</ul>
+
+Possible future work?:
+
+<ul>
+<li>Allow more informative server error-reporting?
+<li>Allow less strict ACL enforcement?
+<li>Document Windows ACL editor conventions?
+<li><a href="testing.html">More testing</a>.
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+
+Test Procedure (1/2)
+
+
+Logical Topology (the sample of Home Agent test)
+
+                                      MN
+
+                                      |
+                                      |
+                                      |
+Link1   ----+---            ----+-----+---
+            |                   |
+            |                   |
+            |                   |
+
+          HA (TARGET)         ROUTER
+
+            |                   |
+            |                   |
+            |                   |
+Link0   ----+-------------------+---------  home link

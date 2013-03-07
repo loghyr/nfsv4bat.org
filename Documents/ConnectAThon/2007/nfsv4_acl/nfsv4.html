@@ -1,0 +1,39 @@
+<html>
+<head>
+</head>
+<title></title>
+<style type="text/css"> <!--
+  SPAN.b { color: blue}
+-->
+</style>
+<body>
+<h1>NFSv4 ACLs</h1>
+
+<h2>Example 1</h2>
+
+<pre>
+ALLOW: :   OWNER@              :rwa
+ALLOW: :  marius@citi.umich.edu:rwa
+ALLOW: :   GROUP@              :rwa
+ALLOW:g:   users@citi.umich.edu:rwa
+ALLOW: :EVERYONE@              :r  
+</pre>
+
+<h2>Example 2</h2>
+
+<pre>
+DENY : :  marius@citi.umich.edu: wa
+ALLOW:g:   staff@citi.umich.edu:rwa
+</pre>
+
+<h2>Example 3</h2>
+
+<pre>
+ALLOW:g:   staff@citi.umich.edu:rwa
+DENY : :  marius@citi.umich.edu: wa
+</pre>
+
+<p>Next: <a href="mapping.html">viewer discretion advised</a>
+
+</body>
+</html>

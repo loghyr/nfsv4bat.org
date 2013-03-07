@@ -1,0 +1,63 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+  <TITLE>The jCIFS Project</TITLE>
+  <META name="Author" content="Christopher R. Hertel">
+  <!--
+    $Log$
+    -->
+</HEAD>
+<BODY
+ TEXT=BLACK
+ BGCOLOR="WHITE"
+>
+
+<P>&nbsp;
+<BR>&nbsp;
+
+<H2>Development Overview: NBNS Server</H2>
+
+<P>The NBNS (aka. WINS) server is required for NetBIOS over a routed LAN. 
+It stores <B>NetBIOS Name to IP Address</B> mappings and responds to
+name resolution queries.
+
+<P>NetBIOS Name resoultion is also performed via broadcast on a LAN.  This
+does not require an NBNS server.
+
+<P>Implementation of a jCIFS &#34;WINS Proxy&#34; is also a possibility.
+
+<P>&nbsp;
+
+<H2>Development Overview: SMB Server</H2>
+
+<P>Provide SMB file &amp; print services using the SMB protocol.  This is
+the cornerstone server piece.  It is, however, linked with CIFS
+authentication mechanisms which include NT Domain control. 
+
+<P>&nbsp;
+
+<H2>Development Overview: Browsers &amp; Master Browsers</H2>
+
+<P>In the CIFS service announcement mechanism, machines on a local LAN are
+&#34;elected&#34; to store the distributed network services list.  Each
+LAN has a Local Master Browser responsible for collecting the service list
+and distributing it to backup browsers on the LAN.  The Local Master also
+communicates with the Domain Master Browser which is responsible for
+collecting the NT Domain-wide list and distributing it back to the LANs. 
+
+<P>&nbsp;
+<BR>&nbsp;
+
+<P ALIGN=RIGHT>
+11
+<HR>
+<TABLE WIDTH="100%" BORDER=0>
+<TR>
+  <TD ALIGN=LEFT>
+  <IMG SRC="jcifs-mini.jpeg" BORDER=0 ALT="">
+  <TD ALIGN=RIGHT>
+  <A HREF="jc12.html"><IMG SRC="next.gif" BORDER=0 ALT=""></A>
+</TABLE>
+
+</BODY>
+</HTML>

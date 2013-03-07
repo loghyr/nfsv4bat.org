@@ -1,0 +1,17 @@
+
+What is TAHI Project ?
+
+
+Objective
+Contributing quality improvement of IPv6
+
+
+Developing verification technology for IPv6
+Conformance Test
+Interoperability Test
+
+
+Cooperating with KAME Project
+
+
+Making our test suites freely available

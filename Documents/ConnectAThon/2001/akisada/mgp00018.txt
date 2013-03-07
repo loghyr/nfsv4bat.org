@@ -1,0 +1,7 @@
+
+Test Example for Correspondent Node
+
+
+Echo Request from Mobile Node
+with Binding Cache
+without Binding Cache

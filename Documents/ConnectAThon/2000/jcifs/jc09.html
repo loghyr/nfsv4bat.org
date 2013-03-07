@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
+<HTML>
+<HEAD>
+  <TITLE>The jCIFS Project</TITLE>
+  <META name="Author" content="Christopher R. Hertel">
+  <!--
+    $Log$
+    -->
+</HEAD>
+<BODY
+ TEXT=BLACK
+ BGCOLOR="WHITE"
+>
+
+<P>&nbsp;
+<BR>&nbsp;
+
+<H2>Development Overview: NetBIOS Emulation Layer</H2>
+
+<P>SMB filesharing, which is at the core of CIFS, was originally designed
+to run over IBM/Sytec PC-LAN networks, via the NetBIOS API. 
+
+<P>Rather than running SMB natively over other protocols, most vendors
+implemented a NetBIOS emulation layer.  (DECnet, SNA, IPX/SPX, TCP/IP,
+etc.) 
+
+<P>The best-known NetBIOS emulation is NetBIOS over TCP/IP (aka. NBT or
+NetBT) as specified in RFC 1001/1002.  This specification provides for:
+<UL>
+<LI>Emulation of non-routed NetBIOS LANs across routed TCP/IP networks.
+<LI>NetBIOS name to IP address resolution.
+<LI>Uni- Multi- and Broadcast datagrams.
+<LI>Session and datagram services.
+</UL>
+
+<P><DL><DT>Our goal:
+       <DD>Provide a complete, modular NetBIOS emulation layer compatible
+           with industry implementations.  Includes: Client name service,
+           datagrams, and NBT NetBIOS API.<BR>
+           <B>Implement NetBIOS emulation as independant from SMB.</B>
+   </DL>
+
+<P>W2K provides native SMB over TCP/IP.
+
+<P>&nbsp;
+<BR>&nbsp;
+
+<P ALIGN=RIGHT>
+09
+<HR>
+<TABLE WIDTH="100%" BORDER=0>
+<TR>
+  <TD ALIGN=LEFT>
+  <IMG SRC="jcifs-mini.jpeg" BORDER=0 ALT="">
+  <TD ALIGN=RIGHT>
+  <A HREF="jc10.html"><IMG SRC="next.gif" BORDER=0 ALT=""></A>
+</TABLE>
+
+</BODY>
+</HTML>

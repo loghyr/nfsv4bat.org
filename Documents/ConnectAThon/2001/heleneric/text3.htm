@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>examples</title>
+</head>
+<body text=#000000 bgcolor=#FFFFFF link=#000080 vlink=#800000 alink=#000080>
+<center>
+<a href="text0.htm">First page</a> <a href="text2.htm">Back</a> <a href="text4.htm">Continue</a> <a href="text15.htm">Last page</a> <a href="heleneric.htm">Summary</a> <a href="img3.htm">Graphics</a></center><br>
+<h1><b><font color=#000080>Examples</b></font></h1><p>
+<ul><li><h2>The new compound command</h2>
+<li><h2><font color=#280099>         % </font><font color=#33A3A3>compound</font><font color=#280099> {</font><font color=#0047FF>Putrootfh</font><font color=#280099>; </font><font color=#0047FF>Lookup</font><font color=#280099> </font><font color=#00AE00>{export v4 dir1}</font><font color=#280099>; </font><font color=#0047FF>Getfh</font><font color=#280099>; </font><font color=#0047FF>Readdir</font><font color=#280099> </font><font color=#00AE00>0 0 1024 1024 {type owner}</font><font color=#280099>}</font></h2>
+<li><h2>Use variables</h2>
+<li><h2><font color=#280099>         % </font><font color=#33A3A3>set</font><font color=#280099> </font><font color=#00AE00>fh</font><font color=#280099> [ </font><font color=#33A3A3>get_fh</font><font color=#280099> </font><font color=#00AE00>$path</font><font color=#280099> ]</font></h2>
+<li><h2><font color=#280099>         % </font><font color=#33A3A3>set</font><font color=#280099> </font><font color=#00AE00>timenow</font><font color=#280099> &quot;[ </font><font color=#33A3A3>clock seconds</font><font color=#280099>] 0&quot;</font></h2>
+<li><h2><font color=#280099>         % </font><font color=#33A3A3>compound</font><font color=#280099> {</font><font color=#0047FF>Putfh</font><font color=#280099> </font><font color=#00AE00>$fh</font><font color=#280099>; </font><font color=#0047FF>Setattr</font><font color=#280099> 0 {{time_access_set </font><font color=#00AE00>$timenow</font><font color=#280099>}}}</font></h2>
+<li><h2>Extended procedures</h2>
+<li><h2><font color=#280099>        Response: {Putrootfh OK} {Lookup OK} {Getattr OK {</font><font color=#00AE00>{size 512} {mode 775}   {time_access {983320015 290000000}}</font><font color=#280099>}}</font></h2>
+<ul><li><font color=#280099>   % </font><font color=#33A3A3>prn_attrs</font><font color=#280099> [lindex [lindex $res 2] 2]</font>
+</ul><li><h2><font color=#280099>              File size        = 512</font></h2>
+<li><h2><font color=#280099>              Mode bits     = 775</font></h2>
+<li><h2><font color=#280099>              Access time  = 983320015 290000000 - Tue Feb 27 16:26:55 PST 2001</font></h2>
+</ul></body>
+</html>

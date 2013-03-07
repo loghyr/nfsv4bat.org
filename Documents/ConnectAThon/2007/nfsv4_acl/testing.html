@@ -1,0 +1,37 @@
+<html>
+<head>
+</head>
+<title></title>
+<style type="text/css"> <!--
+  SPAN.b { color: blue}
+-->
+</style>
+<body>
+<h1>Interoperability testing</h1>
+
+CIFS client, NFSv4 client, multiprotocol server.
+
+Some preliminary results:
+
+<ul>
+<li>For an ACL with a single EVERYONE@ ACE with various mode-bit
+combinations, set from one side, query from the other.  (Works OK.)
+<li>Set basic OWNER@, GROUP@, EVERYONE@ ACL, query from both clients.
+(Windows translates OWNER@ and GROUP@ to current file owner and group;
+otherwise OK.)
+<li>Windows Explorer, as expected, sometimes reorders allow and denies.
+<li>Test handling of suid, sgid, sticky bits.
+<li>Identified some implementation bugs.
+</ul>
+
+Questions:
+
+<ul>
+<li>More realistic tests?
+<li>What do people *need* to work in this situation?
+</ul>
+
+<a href="automatic.html">Automatic inheritance</a>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+<html>
+<head>
+</head>
+<title></title>
+<style type="text/css"> <!--
+  SPAN.b { color: blue}
+-->
+</style>
+<body>
+<h1>Faking it: step 2: relaxed NFSv4->POSIX mapping</h1>
+
+Requirements:
+
+<ol>
+<li>Server should accept (almost) any NFSv4 ACL.
+<li>"If a server receives a SETATTR request that it cannot accurately
+implement, it should error in the direction of more restricted
+access."
+</ol>
+
+Algorithm outline:
+
+<ol>
+<li>Process the NFSv4 ACL as the file owner, find the minimum
+permissions it must grant that owner.
+<li>Repeat for each named user.
+<li>Repeat for a hypothetical member of the owning group that isn't the file
+owner or one of the named users.
+<li>Repeat similarly for each named group.
+<li>Repeat for a user not the file owner or any named user, and not a
+member of the file group or any named group.
+<li>Assemble resulting permissions into a POSIX ACL.
+</ol>
+
+Result:
+
+<ul>
+<li>Simpler code
+<li>Reasonable results for simple NFSv4 ACLs
+</ul>
+
+Also:
+
+<ul>
+<li>Allows transition to full NFSv4 ACL support on the client.
+</ul>
+
+<a href="lessons.html">What have we learned?</a>
+
+</body>
+</html>

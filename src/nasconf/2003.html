@@ -1,0 +1,343 @@
+		<tr>
+			<td><a href="sheplertutorial.pdf">Why NFSv4 ?</a></td>
+      			<td>Spencer Shepler, Sun Microsystems</td>
+		</tr>
+		<tr><td colspan=2>
+	This tutorial will cover the feature content and concept of NFS
+	version 4. Topics covered include justification for deployment
+	of NFSv4, with respect to delegation, security, and continual
+	evolution of the protocol. Special considerations for deployment
+	within Fortune 500 companies will be addressed.
+		</td></tr>
+
+		<tr>
+			<td><a href="Wongtutorial.pdf">NFS in the Microsoft World: An Introduction to NFS Integration</a></td>
+      			<td>Robert Wong, Hummingbird</td>
+		</tr>
+		<tr><td colspan=2>
+	As a foreign protocol to the Microsoft architecture, how
+	can NFS be able to efficiently integrate to the
+	operating system, while remaining transparent to the end
+	users?  This tutorial will look into various aspects of
+	the integration, and how NFSv4 provides a better fit
+	with the Windows file system model.
+		</td></tr>
+
+		<tr>
+			<td><a href="thurlow.pdf">AFS/DFS to NFSv4 Migration Issues</a></td>
+      			<td>Robert Thurlow, Sun Microsystems</td>
+		</tr>
+		<tr><td colspan=2>
+	This tutorial will cover the major issues when
+	migrating from an AFS to and NFSv4 environment. Automounting,
+	caching, security, replication and OpenAFS will be discussed,
+	along with coming changes in NFSv4 that will make the transition
+	more seamless.
+		</td></tr>
+
+		<tr>
+			<td><a href="Purcellfinal.pdf">Addressing Multiprotocol File Sharing Environments</a></td>
+      			<td>Jeff Purcell, EMC</td>
+		</tr>
+		<tr><td colspan=2>
+	A common challenge faced by customers
+	today is handling filesharing within environments that are
+	predominantly multi-protocol (heterogeneous environments).
+	Traditionally file sharing environments provide access to files
+	in a sharing capacity via NFS, CIFS or other filesystem
+	protocol. This tutorial will expose the benefits of leveraging
+	NAS in environments requiring access to the same data shared via
+	multiple protocols (NFS and CIFS). Specifically, how to present
+	the same data to network clients via NFS, CIFS and FTP, a
+	variety of issues associated with maintaining proper security
+	(including locking symantics) and managing the interaction
+	between a UNIX and a Windows environment when deploying NAS in a
+	multi-protocol environment will be discussed.
+		</td></tr>
+
+		<tr>
+			<td><a href="brent.pdf">NFS over RDMA Sweet Spot</a></td>
+      			<td>Brent Callaghan, Sun Microsystems</td>
+		</tr>
+		<tr><td colspan=2>
+	RDMA is a new technology that will accelerate NFS
+	data over high speed networks. This tutorial will describe how
+	NFS over RDMA works, then discuss some scenarios that will make
+	most effective use of this new technology. Considerations such
+	as application types, access patterns, kinds of hardware and
+	networks and administration will be presented.
+		</td></tr>
+
+		<tr>
+			<td><a href="beepyondatabase.pdf">Database over NFS</a></td>
+      			<td>Brian Pawlowski, Network Appliance</td>
+		</tr>
+		<tr><td colspan=2>
+	Considerations for setup and deployment of databases using
+	NFS. Covering architecture, performance tuning, availability,
+	backup, disaster recovery, scalability. Answering the questions:
+	Why NAS? Why DB over NAS? What benefits are derived? Common
+	problems described.
+		</td></tr>
+
+		<tr>
+			<td><a href="Staubach.pdf">NFS Performance Concerns</a></td>
+      			<td>Peter Staubach, Sun Microsystems</td>
+		</tr>
+		<tr><td colspan=2>
+	This tutorial will cover general NFS performance issues from a platform
+	independent view.  Topics will include some of the system level and
+	networking issues that can affect the performance of applications
+	accessing files on NFS mounted file systems.  Some of the common
+	tuning parameters for NFS access will be examined for their effects.
+		</td></tr>
+
+		<tr>
+			<td><a href="gingell.pdf">Sun Microsystems Keynote: From NFS to NFS</a></td>
+      			<td>Rob Gingell, Sun Microsystems Fellow and Chief Engineer</td>
+		</tr>
+	
+		<tr>
+			<td><a href="Pollack.pdf">Shared File System Use in ETL and Data Warehousing</a></td>
+      			<td>Dan Pollack, AOL</td>
+		</tr>
+		<tr><td colspan=2>
+	Many companies have large data warehouse
+	environments that require the use of many incoming data sources.
+	These data sources are often combined together with extraction,
+	transformation, and load (ETL) tools and then loaded into
+	multiple databases for analysis. There is significant advantage
+	to storing these processed data sets in a central location for
+	use by multiple databases and for later retrieval in the event
+	of a data quality problem such as corruption or schema change.
+	This environment tends to be strenuous for NFS based systems due
+	to a number of factors. These factors include high throughput
+	performance requirements, large file sizes, and high numbers of
+	shared file systems in a heterogeneous client and server
+	environment.
+	<br />
+	I will discuss AOL's experience with these issues, how we deal
+	with them, and what improvements we feel will help most with our
+	shared storage environment.
+		</td></tr>
+
+		<tr>
+			<td><a href="andy.pdf">NFSv4 Open Source Project Update</a></td>
+      			<td>Andy Adamson, University of Michigan</td>
+		</tr>
+		<tr><td colspan=2>
+	Andy will present an update on the Linux
+	and BSD NFSv4 implementations including a road-map for NFSv4
+	inclusion into the Linux and BSD kernels.
+		</td></tr>
+
+		<tr>
+			<td><a href="Corbin.pdf">NFS Client Benchmarking</a></td>
+      			<td>John Corbin, EP Network Storage Performance Lab</td>
+		</tr>
+		<tr><td colspan=2>
+	Several NFS server vendors have
+	continually optimized their implementation over the past decade
+	to the point where NFS client implementations now appear to be
+	the performance bottleneck. While application issues may
+	dominate an end users choice of which NFS client to use, the
+	vendors of NFS clients should be interested in making sure they
+	have the best performance possible. This presentation will look
+	at the issues that exist in NFS client benchmarking, the
+	different approaches that could be taken, and a prototype NFS
+	client benchmark.
+		</td></tr>
+
+		<tr>
+			<td><a href="kleiman.pdf">The Data Management Challenge</a></td>
+      			<td>Steven Kleiman, Network Appliance Senior Vice President and CTO</td>
+		</tr>
+		<tr><td colspan=2>
+	NFS has come a long way from its roots as a
+	way of sharing files in home directories over 10Mbps unswitched
+	networks. Enterprise customers now use it to access large
+	databases, Petabyte datasets, and for shared storage in volume
+	server farms using 1Gbps switched networks. Such networks bring
+	new challenges of scale, reliability and manageability. The NFS
+	protocol is evolving to meet the challenge of managing this
+	challenge.
+		</td></tr>
+
+		<tr>
+			<td><a href="wood.pdf">Global Storage Architecture: Scalable NFS Service Using off the Shelf Components</a></td>
+      			<td>Stanley Wood, IBM</td>
+		</tr>
+		<tr><td colspan=2>
+	The Global Storage Architecture (GSA) is a system that provides scalable
+	and robust file system service to commodity clients. It uses off
+	the shelf components including IBMs GPFS cluster file system to
+	provide file service to standard Windows and NFS clients. The
+	clustered back end provides many of the benefits of file systems
+	like AFS and DFS, like location independence, improved
+	scalability, and improved reliability without using proprietary
+	client software. GSA is in active use inside IBM with servers
+	deployed at 11 sites worldwide and counting.
+		</td></tr>
+
+		<tr>
+			<td><a href="colaco.pdf">Sun N1: Storage Virtualization and Oracle</a></td>
+      			<td>Glenn Colaco/Richard McDougall, Sun Microsystems</td>
+		</tr>
+		<tr><td colspan=2>
+	As customers RDBMSs
+	continue to grow, their storage subsystem complexity also
+	continues to grow. New technologies are created to address these
+	issues, however data manageability is still the number one issue
+	customers continue to face today. Storage virtualization via
+	file based Network Attached Storage protocols have been
+	addressing this issue head on. While utilizing existing
+	infrastructure, tried and true tools/diagnostic facilities, and
+	additional feature sets such as end-to-end data security and
+	Quality of Service, NAS is becoming critical to databases.
+	<br />
+	NAS has had a long successful history, but the number one issue
+	precluding NAS from being widely accepted is the perceived
+	performance problems on RDBMSs. The Sun Oracle-NAS project is
+	addressing these performance problems, allowing customers to
+	successfully use NAS with Oracle. By evaluating other protocols
+	and transports including DAFS and RDMA, as well as next
+	generation transports such as Infiniband, the Sun Oracle-NAS
+	project aims to make NAS a viable alternative to block based/SAN
+	storage.
+	<br />
+	As part of Suns N1 strategy, NAS protocols become a critical
+	utility needed for network based computing. It is especially
+	important when dealing with blade servers, and virtualized
+	compute resources where commercial applications can run on any
+	node.
+		</td></tr>
+
+		<tr>
+			<td><a href="eisler.pdf">Rehabilitating NFS Security</a></td>
+      			<td>Michael Eisler, Network Appliance</td>
+		</tr>
+		<tr><td colspan=2>
+	NFS has been known for bad security. This talk
+	examines the basis for that perception, recounts the excellent
+	progress to improve NFSs image, and suggests how to prevent a
+	relapse in the ongoing rehabilitation of NFS security.
+		</td></tr>
+
+		<tr>
+			<td><a href="adaptec.pdf">Benefits of full TCP/IP offload (TOE) for NFS Services</a></td>
+      			<td>Hari Ghadia, Adaptec</td>
+		</tr>
+		<tr><td colspan=2>
+	While TCP/IP offload engine (TOE) products will accelerate a
+	range of  network applications, NFS is emerging as a sweet-spot
+	TOE application  due to its network traffic profile. The
+	presentation will discuss how TOEs can help scale file serving
+	performance, reduce client access time, and increase in number
+	of clients served by a given file server. Customer case study
+	deploying TOE NICs in clustered environment will be discussed.
+		</td></tr>
+
+		<tr>
+			<td><a href="hayden.pdf">EMC Keynote: Data Protection in an Enterprise Environment</a></td>
+      			<td>John Hayden, EMC Corporation Prinicpal Software Engineer</td>
+		</tr>
+
+		<tr>
+			<td><a href="sheplerconf.pdf">NFS Version 4</a></td>
+      			<td>Spencer Shepler, Sun Microsystems</td>
+		</tr>
+		<tr><td colspan=2>
+	The April release of RFC3530 sets the NFSv4 protocol as a IETF
+	Proposed Standard.  Now that the NFSv4 protocol definition is complete
+	and implementations are being released, what is next for the IETF
+	NFSv4 working group.  Spencer will review the NFSv4 working group
+	charter and recent activities surrounding the use of the NFSv4 minor
+	versioning mechanism.
+		</td></tr>
+
+		<tr>
+			<td><a href="jeremy.pdf">The Death of CIFS</a></td>
+      			<td>Jeremy Allison, Samba Team</td>
+		</tr>
+		<tr><td colspan=2>
+	Microsoft is talking about moving towards a new remote file
+	system protocol in their "Longhorn" Windows release.  What might
+	this look like?  What effect will this have on the CIFS
+	community?  What (if any) alternatives do we have to keep
+	creating value in the Network Attached Storage space?
+		</td></tr>
+
+		<tr>
+			<td><a href="Talpeyfinal.pdf">A Roadmap for NFS on RDMA</a></td>
+      			<td>Thomas Talpey, Network Appliance</td>
+		</tr>
+		<tr><td colspan=2>
+	Recently, several proposals have been put forward
+	for NFS, especially for NFS version 4, to employ Remote Direct
+	Memory Access (RDMA) transport technology. This will bring NFS
+	performance to an entirely new level, at the same time it
+	enables further enhancements, such as direct application use of
+	NFS, enhanced local sharing semantics, and improved operation
+	even for non-RDMA enabled peers.
+	<br />
+	This talk will explore a roadmap for NFS enhancements going
+	forward with RDMA technologies. The distinct, yet related
+	benefits from each aspect of the proposals will be discussed.
+	Timeframes for the availability of the various components of the
+	solution will be outlined.
+		</td></tr>
+
+		<tr>
+			<td><a href="Intel.pdf">Preparing Intel for NFSv4 Deployment</a></td>
+      			<td>Travis Broughton, Intel</td>
+		</tr>
+		<tr><td colspan=2>
+	Over the past year, Intel has been preparing its
+	environment for the introduction of NFSv4. We have deployed some
+	test NFSv4 clients and fileservers in a lab setting, and have
+	begun experimenting with its features. Our goal is to provide a
+	corporate-wide distributed filesystem, much like AFS or DCE/DFS.
+	Along with the NFSv4 work, we have been investigating
+	complementary solutions such as building a namespace with autofs
+	or am-utils, providing an authentication framework with LDAP
+	and/or Kerberos, and various other components not supplied
+	directly by the filesystem. This talk will outline our work to
+	date, the challenges we've faced, and our vision of what our
+	environment might look like a year from now.
+		</td></tr>
+
+		<tr>
+			<td><a href="Whiteside.pdf">NFS for The Enterprise</a></td>
+      			<td>Fred Whiteside, Hummingbird Senior Vice President, Research and Development</td>
+		</tr>
+
+		<tr>
+			<td><a href="Chapman.pdf">The SNIA NAS Management TWG: Its Work and Status</a></td>
+      			<td>Dennis Chapman, Network Appliance</td>
+		</tr>
+		<tr><td colspan=2>
+	This talk will describe the
+	work being done by the SNIA NAS Management Technical Work Group
+	to develop a standard way to manage NAS devices. We will cover
+	the scoping, modeling, recipe and draft phases of this effort.
+	The goal of this is work is to include management of NAS devices
+	in the SNIA SMI-S.
+		</td></tr>
+
+		<tr>
+			<td><a href="JohnTerpstra.pdf">Mixed Protocols:  And the Winner is...</a></td>
+      			<td>John Terpstra, PrimaStasys, Inc</td>
+		</tr>
+		<tr><td colspan=2>
+	The presentation looks at the current desktop and server market,
+	considers the profile of network file system protocols, looks at
+	market trends, and draws some conclusions.  It then considers
+	the future of NFS and other file system protocols (i.e., CIFS)
+	with a keen eye on changes that are taking place in how
+	information is accessed and used across disparate platforms.
+	The talk aims to provide a foundation for discussion to the
+	following questions:  What will the end-game in the protocol
+	debate look like?  What is the role of NFS standardization in
+	this future landscape?  IS there a consumer market for future
+	products and services?
+		</td></tr>

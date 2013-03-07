@@ -1,0 +1,50 @@
+<html>
+<head>
+</head>
+<title></title>
+<style type="text/css"> <!--
+  SPAN.b { color: blue}
+-->
+</style>
+<body>
+<h1>POSIX->NFSv4 Mapping</h1>
+
+<h2>Input POSIX ACL</h2>
+
+<pre>
+user :      :rw-
+user :marius:rw-
+group:      :rw-
+group:staff :rw-
+group:users :rw-
+mask :      :rw-
+other:      :r--
+</span></pre>
+
+<h2>Output NFSv4 ACL</h2>
+
+
+<pre>
+user :      :rw-      ALLOW: :   OWNER@              :rwatTcCy
+                      DENY : :   OWNER@              :x
+user :marius:rw-      <span class="b">DENY : :  marius@citi.umich.edu:xTC</span>
+                      ALLOW: :  marius@citi.umich.edu:rwatcy
+                      DENY : :  marius@citi.umich.edu:xTC
+group:      :rw-      <span class="b">DENY :g:   GROUP@              :xTC</span>
+                      ALLOW:g:   GROUP@              :rwatcy
+group:staff :rw-      <span class="b">DENY :g:   staff@citi.umich.edu:xTC</span>
+                      ALLOW:g:   staff@citi.umich.edu:rwatcy
+group:users :rw-      <span class="b">DENY :g:   users@citi.umich.edu:xTC</span>
+                      ALLOW:g:   users@citi.umich.edu:rwatcy
+                      DENY :g:   GROUP@              :xTC
+                      DENY :g:   staff@citi.umich.edu:xTC
+                      DENY :g:   users@citi.umich.edu:xTC<span class="b">
+mask :      :rw-</span>
+other:      :r--      ALLOW: :EVERYONE@              :rtcy
+                      DENY : :EVERYONE@              :waxTC
+</pre>
+
+But wait, <a href="problems.html">it gets worse</a>
+
+</body>
+</html>

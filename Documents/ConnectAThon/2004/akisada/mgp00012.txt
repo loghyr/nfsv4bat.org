@@ -1,0 +1,19 @@
+
+Interoperability Test Scenario (1/3)
+
+
+Consist of the basic scenarios
+
+boot MN at home link
+boot MN at foreign link w/ DHAAD
+boot MN at foreign link w/o DHAAD (manual HA assignment)
+movement from HL to FL
+movement from FL to FL
+movement from FL to HL
+MN->CN communication w/ RO
+MN->CN communication w/o RO
+CN->MN communication w/ RO
+CN->MN communication w/o RO
+...
+
+Consist of 700 basic scenarios

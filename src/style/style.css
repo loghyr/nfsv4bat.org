@@ -1,0 +1,792 @@
+/*  
+Theme Name: nfsv4bat.org
+Author: Thomas Haynes
+Author URI: http://www.nfsv4bat.org/
+Version: 1.0
+*/		
+
+*
+{
+margin: 0px;
+padding: 0px;
+}
+
+ul
+{
+list-style: none;
+}
+
+body 
+{
+font-size: 13px;
+margin: 0px;
+text-align: center;
+background: #000000;
+color: #FFFFFF;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+                         /***************************************************
+                         *********************** Title **************
+                         *****************************************************/
+
+#title
+{
+height:60px;
+display: block;
+text-align: center;
+margin: 0px auto 0px auto;
+padding: 12px 0 0 0;
+}
+
+
+#title a:link {
+color: #FF0000;
+text-decoration: none;
+border: none;
+padding: 6px 15px;
+margin-left: 0;
+}
+
+#title a:visited {
+color: #ED1C24;
+text-decoration: none;
+border: none;
+font-weight: bold;
+padding: 6px 15px;
+margin-left: 0;
+}
+
+#title a:hover {
+color: #FFFFFF;
+text-decoration: none;
+padding: 6px 15px;
+margin-left: 0;
+}
+
+
+                         /***************************************************
+                         *********************** Titlebox Container *********
+                         *****************************************************/
+
+#titlebox
+{
+clear:left;
+padding:0;
+margin-left:auto;
+margin-right:auto;
+margin-top: 0;
+overflow: hidden;
+}
+
+#titlebox p
+{
+padding-left: 10px;
+text-align:center;
+}
+
+#titlebox blockquote
+{
+margin: 0px 0px 0px 30px;
+padding: 0px 25px 0px 0px;
+font-style: italic;
+color: #FFFFFF;
+text-align: center;
+}
+
+                         /***************************************************
+                         *********************** Container **************
+                         *****************************************************/
+#container
+{
+clear:left;
+padding:0;
+margin-left:auto;
+margin-right:auto;
+margin-top: 0;
+overflow: hidden;
+}
+
+
+
+
+                         /***************************************************
+                         *********************** Left Sidebar Container *******
+                         *****************************************************/
+#leftnav
+{
+font-size: 12px;
+float: left;
+width: 180px;
+margin: 2;
+padding-top: 4px;
+margin-top: 0px;
+margin-left: 2px;
+margin-bottom: 20px;
+text-align: center;
+color: #000000;
+}
+
+
+#leftnav a:link {
+color: #FF0000;
+text-decoration: none;
+border: none;
+font-weight: bold;
+margin-left: 2px;
+}
+
+#leftnav a:visited {
+color: #0000FF;
+text-decoration: none;
+border: none;
+font-weight: bold;
+margin-left: 2px;
+}
+
+#leftnav a:hover {
+color: #0000FF;
+text-decoration: none;
+font-weight: bold;
+margin-left: 2px;
+}
+
+                         /***************************************************
+                         *********************** Right Sidebar Container *******
+                         *****************************************************/
+
+#rightnav
+{
+font-size: 14px;
+float: right;
+width: 180px;
+margin: 0;
+padding-top: 4px;
+margin-top: 0px;
+margin-bottom: 20px;
+margin-right: 2px;
+text-align: center;
+background: #000000;
+color: #E49B0F;
+}
+
+#rightnav a:link {
+color: #000000;
+text-decoration: none;
+border: none;
+}
+
+#rightnav a:visited {
+color: #000000;
+text-decoration: none;
+border: none;
+font-weight: bold;
+}
+
+#rightnav a:hover {
+color: #000080;
+text-decoration: none;
+}
+
+                         /***************************************************
+                         ****************** Talks Content **************
+                         *****************************************************/
+
+#talks
+{
+display: block;
+margin: 0px 185px 20px 185px;
+padding: 1em;
+padding-top: 10px;
+text-align: center;
+background: #000000;
+color: #FFFFFF;
+}
+
+                         /***************************************************
+                         *********************** Content **************
+                         *****************************************************/
+#content
+{
+display: block;
+margin: 0px 185px 20px 185px;
+padding: 1em;
+padding-top: 10px;
+text-align: left;
+background: #000000;
+color: #FFFFFF;
+}
+
+#content ul
+{
+padding-left: 2em;
+}
+
+#content ul li{
+padding: 0.2em;
+list-style: square;
+}
+
+#content ul ul li{
+padding: 0.2em;
+list-style: circle;
+}
+
+
+#content ol{
+list-style-position: inside;
+padding-left: 15px;
+padding-top: 2px;
+margin-bottom: 10px;
+}
+
+#content p
+{
+padding-left: 10px;
+}
+
+#content blockquote
+{
+margin: 0px 0px 0px 30px;
+padding: 0px 25px 0px 0px;
+font-style: italic;
+color: #000000;
+text-align: center;
+}
+
+                         /***************************************************
+                         *********************** Footer **************
+                         *****************************************************/
+
+#footwrap
+{
+clear:both;
+padding: 5px 1em 5px 1em;
+font-weight: normal;
+font-size: 11px;
+width: 66%;
+margin-left: 180px;
+}
+
+#footwrap p
+{
+display: block;
+margin-top: 8px;
+margin-bottom: 2px;
+text-align:center;
+}
+
+#footwrap a:link {
+text-decoration: none;
+border: none;
+}
+
+#footwrap a:hover {
+text-decoration: underline;
+border: none;
+font-weight: bold;
+}
+
+#footwrap a:visited:hover {
+text-decoration: underline;
+border: none;
+}
+
+#footwrap a:visited {
+text-decoration: none;
+border: none;
+font-weight: bold;
+}
+
+#footwrap img {
+padding: 0px 5px 0px 5px;
+}
+
+
+                         /***************************************************
+                         *********************** Left Sidebar **************
+                         *****************************************************/
+#sidebarleft
+{
+margin-bottom: 10px;
+background: none;
+padding: 0 8px  0 8px;
+}
+
+#sidebarleft li
+{
+padding-bottom: 8px;
+background: #4f4f4f;
+}
+
+#sidebarleft ul li
+{
+display: block;
+margin-left: 5px;
+padding-bottom: 2px;
+}
+
+#sidebarleft ul li ul li{
+padding-bottom: 2px;
+}
+
+#sidebarleft ul li li{
+padding: 4px 3px 2px 2px;
+}
+
+#sidebarleft a:link {
+display:block;
+color: #F5FFC1;
+text-decoration: none;
+font-weight: normal;
+}
+
+#sidebarleft a:hover {
+display:block;
+color: #C2D36C;
+}
+
+#sidebarleft a:visited:hover {
+display:block;
+color: #C2D36C;
+}
+
+#sidebarleft a:visited {
+display:block;
+color: #F5FFC1;
+text-decoration: none;
+}
+
+#sidebarleft h2 {
+color: #232D32;
+padding: 2px 8px 2px 8px;
+margin-top:14px;
+background: #88944C url(/img/h2.gif) top left no-repeat;;
+border-bottom: 2px solid #1F1F1F;
+}
+
+                         /***************************************************
+                         *********************** Menu items **************
+                         *****************************************************/
+
+A.menulink:link {
+font-size: 16px;
+color: #;
+border: 1px groove #FF0000;
+text-decoration: none;
+text-align: left;
+background: #000000 URL('/img/menubar.jpg') repeat-y;
+display: block;
+line-height: 24px;
+margin:1px;
+margin-left: 2px;
+}
+
+A.menulink:visited {
+font-size: 16px;
+color: #000FF0;
+border: 1px groove #FF0000;
+text-decoration: none;
+text-align: left;
+background: #000000 URL('/img/menubar.jpg') repeat-y;
+display: block;
+line-height: 24px;
+margin:1px;
+margin-left: 2px;
+}
+
+A.menulink:hover {
+font-size: 18px;
+color: #00FF00;
+border: 1px groove #FF0000;
+text-decoration: underline;
+text-align: left;
+display: block;
+background: #000000 URL('/img/menubar_hover.jpg') repeat-y;
+line-height: 24px;
+margin:1px;
+margin-left: 2px;
+}
+
+
+A.cmenulink:link {
+font-size: 16px;
+color: #;
+border: 1px groove #FF0000;
+text-decoration: none;
+text-align: center;
+background: #000000 URL('/img/menubar.jpg') repeat-y;
+display: block;
+line-height: 24px;
+margin:1px;
+margin-left: 2px;
+}
+
+A.cmenulink:visited {
+font-size: 16px;
+color: #000FF0;
+border: 1px groove #FF0000;
+text-decoration: none;
+text-align: center;
+background: #000000 URL('/img/menubar.jpg') repeat-y;
+display: block;
+line-height: 24px;
+margin:1px;
+margin-left: 2px;
+}
+
+A.cmenulink:hover {
+font-size: 18px;
+color: #00FF00;
+border: 1px groove #FF0000;
+text-decoration: underline;
+text-align: center;
+display: block;
+background: #000000 URL('/img/menubar_hover.jpg') repeat-y;
+line-height: 24px;
+margin:1px;
+margin-left: 2px;
+}
+
+
+
+A.talkmenulink:link {
+font-size: 16px;
+color: #;
+border: 1px groove;
+text-decoration: none;
+text-align: center;
+background: URL('/img/menubar.jpg') repeat-y;
+display: block;
+line-height: 24px;
+margin:1px;
+}
+
+A.talkmenulink:visited {
+font-size: 16px;
+color: #000FF0;
+border: 1px groove;
+text-decoration: none;
+text-align: center;
+background: URL('/img/menubar.jpg') repeat-y;
+display: block;
+line-height: 24px;
+margin:1px;
+}
+
+A.talkmenulink:hover {
+font-size: 18px;
+color: #00FF00;
+border: 1px groove;
+text-decoration: underline;
+text-align: center;
+display: block;
+background: URL('/img/menubar_hover.jpg') repeat-y;
+line-height: 24px;
+margin:1px;
+}
+
+
+                         /***************************************************
+                         *********************** Right Sidebar **************
+                         *****************************************************/
+
+#sidebarright
+{
+margin-bottom: 10px;
+background: none;
+padding: 0 8px  0 8px;
+}
+
+#sidebarright li
+{
+padding-bottom: 8px;
+background: #4f4f4f;
+}
+
+#sidebarright ul li
+{
+display: block;
+margin-left: 5px;
+padding-bottom: 2px;
+}
+
+#sidebarright ul li ul li{
+padding-bottom: 2px;
+}
+
+#sidebarright ul li li{
+padding: 4px 3px 2px 2px;
+}
+
+#sidebarright a:link {
+display:block;
+color: #F5FFC1;
+text-decoration: none;
+font-weight: normal;
+}
+
+#sidebarright a:hover {
+display:block;
+color: #C2D36C;
+}
+
+#sidebarright a:visited:hover {
+display:block;
+color: #C2D36C;
+}
+
+#sidebarright a:visited {
+display:block;
+color: #F5FFC1;
+text-decoration: none;
+}
+
+#sidebarright h2 {
+color: #232D32;
+padding: 2px 8px 2px 8px;
+background: #88944C url(/img/h2.gif) top left no-repeat;;
+margin-top:14px;
+border-bottom: 2px solid #1F1F1F;
+}
+
+#leftnav p, #rightnav p { margin: 0 0 1em 0; }
+#content h2 { margin: 0 0 .5em 0; }
+
+
+                         /***************************************************
+                         *********************** Paragraph **************
+                         *****************************************************/
+
+p
+{
+margin-bottom: 12px;
+margin-top: 12px;
+}
+
+                         /***************************************************
+                         *********************** Blockquote ********************
+                         *****************************************************/
+
+blockquote
+{
+margin: 0px 0px 0px 30px;
+padding: 0px 25px 0px 0px;
+font-style: italic;
+color: #F5FFC1;
+text-align: center;
+}
+
+
+                         /***************************************************
+                         *********************** Links ********************
+                         *****************************************************/
+
+a:link
+{
+color: #00FF00;
+text-decoration: none;
+font-weight: normal;
+}
+
+a:hover
+{
+color: #FFFF00;
+text-decoration: underline;
+font-weight: bold;
+}
+
+a:visited
+{
+color: #00FFFF;
+text-decoration: none;
+font-weight: normal;
+}
+
+a:visited:hover
+{
+color: #FF0000;
+text-decoration: underline;
+font-weight: bold;
+}
+
+a img 
+{
+border:none;
+background:none;
+padding:5px;
+}
+
+#feed, #feed img a:link, #feed img a:visited
+{
+border: none;
+}
+
+
+                         /***************************************************
+                         *********************** Headings**************
+                         *****************************************************/
+
+h1
+{
+font-size: 36px;
+color: #666666;
+}
+
+h2
+{
+display: block;
+font-size: 16px;
+font-weight: bold;
+padding: 5px 0 0 12px;
+margin: 5px 0 6px 0;
+}
+
+h3
+{
+display: block;
+font-size: 14px;
+font-weight: bold;
+padding: 5px 0 0 12px;
+margin: 5px 0 6px 0;
+}
+
+h4
+{
+margin-top: 15px;
+font-size: 13px;
+font-weight: bold;
+padding: 5px 0 0 12px;
+margin: 5px 0 6px 0;
+}
+
+h5
+{
+margin-top: 15px;
+font-size: 12px;
+font-weight: bold;
+padding: 5px 0 0 12px;
+margin: 5px 0 6px 0;
+}
+
+
+                         /***************************************************
+                         *********************** Code ********************
+                         *****************************************************/
+code
+{
+display: block;
+margin: 10px 30px 0 30px;
+padding: 2px 10px 5px 10px;
+border-top: 4px solid #88944C;
+color: #B7BF8F;
+background: #4F4F4F;
+}
+
+                         /***************************************************
+                         ************ Navigation (based on Blix)**************
+                         *****************************************************/
+#navigation {
+margin-left:auto;
+margin-right:auto;
+overflow: hidden;
+height:2.7em;
+line-height:2.7em;
+background: url(/img/navlink.gif) repeat-x;
+}
+
+#navigation ul {
+  margin:0;
+  padding:0;
+}
+
+#navigation li {
+  float:left;
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  white-space:nowrap;
+}
+
+#navigation li a {
+  display:block;
+  padding:0 18px;
+  font-size:0.8em;
+  text-transform:uppercase;
+  letter-spacing:1px;
+}
+
+* html #navigation a {width:1%;} /* see http://www.positioniseverything.net/explorer/escape-floats.html */
+
+#navigation form {
+  float:right;
+  height:100%;
+  width:164px;
+  padding:0 15px;
+  line-height:0;
+background: url(/img/navlink.gif) repeat-x;
+}
+
+#navigation form fieldset {
+  /* centering the search form could've
+  been done way more elegant but IEWin
+  and Opera refused to follow the rules */
+  margin-top:7px;
+  border:0 solid; /* Opera */
+}
+
+* html #navigation form fieldset {margin-top:7px;}
+
+#navigation #s {
+  height:1.5em;
+  width:115px;
+  margin:0 5px 0 0;
+  padding:0;
+  font-size:0.8em;
+  vertical-align:middle;
+}
+
+#navigation #searchbutton {
+  height:2em;
+  width:auto;
+  padding:0 1px;
+ /* border:1px solid;*/
+  font-size:9px;
+  letter-spacing:1px;
+  text-align:center;
+  vertical-align:middle;
+}
+
+#navigation {
+background-color:#88944C;
+}
+
+
+#navigation a {
+color:#333333;}
+
+#navigation .selected,
+#navigation a:hover
+  {background:#B7BF8F url(/img/navhover.gif) repeat-x;}
+
+#navigation form {
+  background:#88944C url(/img/navlink.gif) repeat-x;
+}
+
+#navigation #s {border-color:#FFF9EA;}
+
+#navigation #searchbutton {
+  color:#333333;
+  background-color:#C2D36C;
+}
+
+.credits
+{
+margin-top: -20px;
+margin-bottom: 5px;
+padding: 0 4px 8px 4px;
+float: right;
+}

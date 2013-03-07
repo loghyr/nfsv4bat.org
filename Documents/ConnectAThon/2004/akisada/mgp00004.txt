@@ -1,0 +1,7 @@
+
+Background
+
+
+MIPv6 test had spined off from TAHI project.
+
+v6PC continues to develop MIPv6 test suits.

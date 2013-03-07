@@ -1,0 +1,20 @@
+
+Conformance Test Suits (1/2)
+
+
+Based on TAHI's test suits
+using TAHI's packet generation engine
+
+Total test number is almost 500
+CN: 116
+HA: 212
+MN: 146
+
+Open source
+perl (test script)
+C++  (packet generation engine)
+supported OS: FreeBSD 4.6 or higher
+
+Freeware
+ct-mipv6-2.0.9 (test script)
+v6eval-2.2b6 (packet generation engine)

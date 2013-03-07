@@ -1,0 +1,8 @@
+
+General Concept
+
+
+Reference Network Archtecture
+
+
+Our tests are based on this archtecture.

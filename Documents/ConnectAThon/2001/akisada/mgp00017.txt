@@ -1,0 +1,14 @@
+
+Test Example for Home Agent
+
+
+Dynamic Home Agent Address Discovery
+Discovery with RA of other HA
+Discovery without RA of other HA
+Deleting entry in the Home Agents List
+
+Home Registration
+Rejecting Binding Update
+Proxy DAD
+De-registration
+Intercepting Packets for a Mobile Node

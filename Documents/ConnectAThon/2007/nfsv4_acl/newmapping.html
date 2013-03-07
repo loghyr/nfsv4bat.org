@@ -1,0 +1,38 @@
+<html>
+<head>
+</head>
+<title></title>
+<style type="text/css"> <!--
+  SPAN.b { color: blue}
+-->
+</style>
+<body>
+<h1>Faking it: step 1: Simplify!</h1>
+
+<pre>
+user :      :rw-      ALLOW: :   OWNER@              :rwatTcCy
+user :marius:rw-      ALLOW: :  marius@citi.umich.edu:rwatcy
+group:      :rw-      ALLOW:g:   GROUP@              :rwatcy
+group:staff :rw-      ALLOW:g:   staff@citi.umich.edu:rwatcy
+group:users :rw-      ALLOW:g:   users@citi.umich.edu:rwatcy
+mask        :rw-
+other:      :r--      ALLOW: :EVERYONE@              :rtcy
+</pre>
+
+
+<h2>(Mask example)</h2>
+
+<pre>
+user :      :rw-      ALLOW: :   OWNER@              :rwatTcCy
+user :marius:rw-      ALLOW: :  marius@citi.umich.edu:rtcy
+group:      :rw-      ALLOW:g:   GROUP@              :rtcy
+group:staff :rw-      ALLOW:g:   staff@citi.umich.edu:rtcy
+group:users :rw-      ALLOW:g:   users@citi.umich.edu:rtcy
+mask        :r--
+other:      :r--      ALLOW: :EVERYONE@              :rtcy
+</pre>
+
+<a href="newmapping2.html">Step 2: be liberal in what you accept</a>
+
+</body>
+</html>

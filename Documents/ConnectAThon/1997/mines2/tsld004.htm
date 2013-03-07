@@ -1,0 +1,72 @@
+
+<HTML>
+
+<HEAD>
+<META HTTP-EQUIV="Context-Type" CONTEXT="text/html;charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft Internet Assistant for PowerPoint 97">
+ <TITLE>PPT Slide</TITLE> 
+</HEAD>
+
+<BODY  BGCOLOR=white  TEXT="#202020"  LINK="#6600ff"  VLINK="#cc3399" >
+
+ <H1>PPT Slide</H1> 
+ <P><UL>
+ 
+<BR></UL><UL>
+
+</UL><UL>
+
+</UL><UL>
+	import java.io.*;
+</UL><UL>
+	import java.net.*;
+</UL><UL>
+	import sunsoft.onc.WebNFS.*;
+</UL><UL>
+	//
+</UL><UL>
+	// create File using NFS protocol 
+</UL><UL>
+	//
+</UL><UL>
+	File nfile = new File(new URL("nfs://jumble/file.txt"));
+</UL><UL>
+	//
+</UL><UL>
+	// test to see if file is directory
+</UL><UL>
+	//
+</UL><UL>
+	if (nfile.isDir()) System.out.println("File is directory");
+</UL><UL>
+	//
+</UL><UL>
+	// get file system / protocol specific interface from factory
+</UL><UL>
+	//
+</UL><UL>
+	NFSFileAccessor nfa = nfile.getFileAccessor();
+</UL><UL>
+	//
+</UL><UL>
+	// use interface to get file system /protocol specific information
+</UL><UL>
+	//
+</UL><UL>
+	System.out.println("File GID is " + nfa.getGID()); 
+</UL><UL>
+	System.out.println("File UID is " + nfa.getUID()); </UL></P>
+<P></P> 
+<P>
+<TABLE>
+  <TD HEIGHT=100 WIDTH=100> <A HREF="tsld003.htm">Previous slide</A> </TD>
+  <TD HEIGHT=100 WIDTH=100> <A HREF="tsld005.htm">Next slide</A> </TD>
+  <TD HEIGHT=100 WIDTH=150> <A HREF="tsld001.htm">Back to first slide</A> </TD>
+</TABLE>
+<BR>
+</P>
+
+
+
+</Body>
+</HTML>
