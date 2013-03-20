@@ -1,5 +1,5 @@
 #
-# Copyright (C) Tom Haynes - loghyr@gmail.com (2013)
+# Copyright (C) Tom Haynes - tdh@excfb.com (2013)
 #
 
 CP=/bin/cp -f

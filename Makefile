@@ -1,3 +1,7 @@
+#
+# Copyright (C) Tom Haynes - tdh@excfb.com (2013)
+#
+
 all:
 	(cd src; make)
 
