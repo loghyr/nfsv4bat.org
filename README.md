@@ -23,4 +23,5 @@ $ make
 To make sure you have a clean copy, use make:
 
 $ make clean
+
 $ make
