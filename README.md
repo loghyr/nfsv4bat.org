@@ -16,8 +16,12 @@ tends to be very much write once, read often.
 that change whenever new content is added, which is rare. So we
 avoid the overhead of a database and have the pages load quickly.
 
-HTML files are generated out of the src directory. Look at src/build.sh for examples.
+To rebuild the content, use make:
 
-Todo:
+$ make
 
-Convert the shell scripts to proper Makefiles.
+To make sure you have a clean copy, use make:
+
+$ make clean
+
+$ make
