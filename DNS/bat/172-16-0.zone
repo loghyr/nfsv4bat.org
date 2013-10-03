@@ -1,0 +1,15 @@
+$TTL 3d  ;
+$ORIGIN 0.16.172.IN-ADDR.ARPA.
+@    3d    IN        SOA    ns1.nfsv4bat.org.  hostmaster.nfsv4bat.org. (
+                            201107111          ; serial number
+                            3600               ; refresh, seconds
+                            3600               ; retry, seconds
+                            3600               ; expire, seconds
+                            3600               ; minimum, seconds
+                                )
+
+              IN      NS      ns1.nfsv4bat.org.
+1             IN      PTR     batman.nfsv4bat.org.
+2             IN      PTR     ipa.nfsv4bat.org.
+3             IN      PTR     ad.nfsv4bat.org.
+4             IN      PTR     f12-1.nfsv4bat.org.
