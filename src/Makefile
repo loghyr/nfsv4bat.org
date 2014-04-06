@@ -28,6 +28,7 @@ EVENTS = \
 	${DESTROOT}/Events/2012/October/BAT/index.html \
 	${DESTROOT}/Events/2013/June/BAT/index.html \
 	${DESTROOT}/Events/2013/September/BAT/index.html \
+	${DESTROOT}/Events/2014/June/BAT/index.html \
 	${DESTROOT}/Documents/Requirements/event_hosting.html
 
 all: ${STYLE} ${PAGES} ${EVENTS}
@@ -71,6 +72,10 @@ ${DESTROOT}/Events/2013/June/BAT/index.html: bat0613.html pre_root.html post_roo
 
 ${DESTROOT}/Events/2013/September/BAT/index.html: bat0913.html pre_root.html post_root.html
 	${MKDIR} ${DESTROOT}/Events/2013/September/BAT
+	${CAT} pre_root.html $< post_root.html > $@
+
+${DESTROOT}/Events/2014/June/BAT/index.html: bat0614.html pre_root.html post_root.html
+	${MKDIR} ${DESTROOT}/Events/2014/June/BAT
 	${CAT} pre_root.html $< post_root.html > $@
 
 ${DESTROOT}/Documents/Requirements/event_hosting.html: batreqs.html pre_root.html post_root.html

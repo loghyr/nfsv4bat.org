@@ -6,7 +6,8 @@ CP=/bin/cp -f
 RM=/bin/rm -f
 CAT=/bin/cat
 MKDIR=/bin/mkdir -p
-SED=/bin/sed
+#SED=/bin/sed
+SED=sed
 ECHO=/bin/echo
 
 #
