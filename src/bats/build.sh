@@ -11,3 +11,4 @@ cat pre_root_talks.html talks.html post_root_talks.html > ../../Documents/BakeAT
 #
 
 ./yearify.sh 2012
+./yearify.sh 2014
