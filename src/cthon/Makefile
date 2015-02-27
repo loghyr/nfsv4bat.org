@@ -38,7 +38,8 @@ YEARS = \
 	${DESTROOT}/Documents/ConnectAThon/2011/index.html \
 	${DESTROOT}/Documents/ConnectAThon/2012/index.html \
 	${DESTROOT}/Documents/ConnectAThon/2013/index.html \
-	${DESTROOT}/Documents/ConnectAThon/2014/index.html
+	${DESTROOT}/Documents/ConnectAThon/2014/index.html \
+	${DESTROOT}/Documents/ConnectAThon/2015/index.html
 
 all: ${TALKS} ${YEARS}
 
