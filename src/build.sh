@@ -20,6 +20,9 @@ cat pre_root.html batreqs.html post_root.html > ../Documents/Requirements/event_
 mkdir -p ../Events/2015/June/BAT
 cat pre_root.html bat0615.html post_root.html > ../Events/2015/June/BAT/index.html
 
+mkdir -p ../Events/2015/October/BAT
+cat pre_root.html bat1015.html post_root.html > ../Events/2015/October/BAT/index.html
+
 #
 # The talks!
 #
