@@ -26,6 +26,9 @@ cat pre_root.html bat1015.html post_root.html > ../Events/2015/October/BAT/index
 mkdir -p ../Events/2016/June/BAT
 cat pre_root.html bat0616.html post_root.html > ../Events/2016/June/BAT/index.html
 
+mkdir -p ../Events/2016/October/BAT
+cat pre_root.html bat1016.html post_root.html > ../Events/2016/October/BAT/index.html
+
 #
 # The talks!
 #
