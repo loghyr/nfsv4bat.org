@@ -105,7 +105,7 @@ ${DESTROOT}/Events/2016/October/BAT/index.html: bat1016.html pre_root.html post_
 	${CAT} pre_root.html $< post_root.html > $@
 
 ${DESTROOT}/Events/2017/September/BAT/index.html: bat1016.html pre_root.html post_root.html
-	${MKDIR} ${DESTROOT}/Events/2016/October/BAT
+	${MKDIR} ${DESTROOT}/Events/2017/September/BAT
 	${CAT} pre_root.html $< post_root.html > $@
 
 ${DESTROOT}/Documents/Requirements/event_hosting.html: batreqs.html pre_root.html post_root.html
