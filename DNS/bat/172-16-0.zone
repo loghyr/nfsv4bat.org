@@ -12,4 +12,23 @@ $ORIGIN 0.16.172.IN-ADDR.ARPA.
 1             IN      PTR     batman.nfsv4bat.org.
 2             IN      PTR     ipa.nfsv4bat.org.
 3             IN      PTR     ad.nfsv4bat.org.
-4             IN      PTR     f12-1.nfsv4bat.org.
+4             IN      PTR     dhcp.nfsv4bat.org.
+5             IN      PTR     steved.nfsv4bat.org.
+6             IN      PTR     rhelman.nfsv4bat.org.
+7             IN      PTR     rhelboy.nfsv4bat.org.
+8             IN      PTR     fedora.nfsv4bat.org.
+9             IN      PTR     ipa-rhel6.nfsv4bat.org.
+
+50             IN      PTR     pd-mds.nfsv4bat.org.
+51             IN      PTR     pd-ds.nfsv4bat.org.
+
+100             IN      PTR     rdma-master.nfsv4bat.org.
+102             IN      PTR     rdma-storage-02.nfsv4bat.org.
+103             IN      PTR     rdma-storage-03.nfsv4bat.org.
+104             IN      PTR     rdma-storage-04.nfsv4bat.org.
+200             IN      PTR     rdma-master-bmc.nfsv4bat.org.
+202             IN      PTR     rdma-storage-02-bmc.nfsv4bat.org.
+203             IN      PTR     rdma-storage-03-bmc.nfsv4bat.org.
+204             IN      PTR     rdma-storage-04-bmc.nfsv4bat.org.
+
+255             IN      PTR     mikrotik.nfsv4bat.org.

@@ -1,0 +1,28 @@
+$TTL 3D ;
+$ORIGIN 5.17.172.IN-ADDR.ARPA.
+@    3D    IN      SOA  ns1.nfsv4bat.org.  hostmaster.nfsv4bat.org. (
+                        201309270       ; serial#
+                        3600            ; refresh, seconds
+                        3600            ; retry, seconds
+                        3600            ; expire, seconds
+                        3600            ; minimum, seconds
+                        )
+
+                IN      NS      ns1.nfsv4bat.org.
+
+10             IN      PTR     oracle-ib-10.nfsv4bat.org.
+11             IN      PTR     oracle-ib-11.nfsv4bat.org.
+12             IN      PTR     oracle-ib-12.nfsv4bat.org.
+
+100             IN      PTR     oracle-ib-100.nfsv4bat.org.
+101             IN      PTR     oracle-ib-101.nfsv4bat.org.
+102             IN      PTR     oracle-ib-102.nfsv4bat.org.
+
+110             IN      PTR     oracle-ib-110.nfsv4bat.org.
+111             IN      PTR     oracle-ib-111.nfsv4bat.org.
+112             IN      PTR     oracle-ib-112.nfsv4bat.org.
+
+200             IN      PTR     oracle-ib-200.nfsv4bat.org.
+201             IN      PTR     oracle-ib-201.nfsv4bat.org.
+202             IN      PTR     oracle-ib-202.nfsv4bat.org.
+

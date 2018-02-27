@@ -1,0 +1,32 @@
+$TTL 3D
+$ORIGIN ib.nfsv4bat.org.
+@    3D    IN      SOA  ns1.ib.nfsv4bat.org.  hostmaster.ib.nfsv4bat.org. (
+                        201309270       ; serial#
+                        3600            ; refresh, seconds
+                        3600            ; retry, seconds
+                        3600            ; expire, seconds
+                        3600            ; minimum, seconds
+                        )
+
+                NS      ns1             ; Inet Address of nameserver
+
+ns1	A	172.17.0.1
+
+oracle-ib-100	A	172.17.0.100
+oracle-ib-101	A	172.17.0.101
+oracle-ib-102	A	172.17.0.102
+
+oracle-ib-110	A	172.17.0.110
+oracle-ib-111	A	172.17.0.111
+oracle-ib-112	A	172.17.0.112
+
+oracle-ib-200	A	172.17.0.200
+oracle-ib-201	A	172.17.0.201
+oracle-ib-202	A	172.17.0.202
+
+redhat-ib-130	A       172.17.0.130
+redhat-ib-131	A       172.17.0.131
+redhat-ib-132	A       172.17.0.132
+redhat-ib-133	A       172.17.0.133
+redhat-ib-134	A       172.17.0.134
+redhat-ib-135	A       172.17.0.135
