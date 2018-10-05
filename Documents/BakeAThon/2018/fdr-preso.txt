@@ -1,0 +1,160 @@
+
+	NFS Flight Data Recorder (FDR)
+
+
+		A proposal for "always on" diagnosability mechanism for Linux NFS
+
+		Bill.Baker@Oracle.com
+
+
+	Rationale?
+
+
+		Mr. Customer, can you reproduce that?
+
+		Very frustrating for the Customer
+
+			system crash
+
+			data corruption
+
+			blue moon bugs
+
+
+	First Failure Data Capture
+
+
+		FFDC: capture all data needed to diagnose on first occurrance
+
+		kdump is a good example
+
+		syslog also, but not a good choice for detailed FDR data 
+
+			too noisy, too much in your face
+
+
+	Requirements
+
+
+		Always on (at least, when the modules get loaded)
+
+		Very low overhead
+
+		Circular, uninteresting data quietly thrown away
+
+		Quiet until needed
+
+			(unlike excessive syslog'ing)
+
+		Consistent with existing coding practices (for NFS)
+
+
+	Based on ftrace
+
+
+		Meets the needs quite nicely
+
+		ftrace instances
+
+			private set of ftrace buffers (per cpu)
+
+			no interference with global ftrace buffers
+
+			probes enabled for just one particular instance
+
+			created on the fly (see below)
+
+
+	ftrace instances
+
+
+		let X=/sys/kernel/debug/tracing
+
+		created on the fly:
+
+			mkdir $X/instances/nfs-fdr
+
+		namespace populated with static probes
+
+			ls $X/instances/nfs-fdr/events/nfs4
+				... nfs4_write
+
+		indvidual probes enabled like so
+
+			echo 1 > $X/instances/nfs-fdr/events/nfs4/nfs4_write
+
+		easily harvested
+
+			cat $X/instances/nfs-fdr/trace_pipe
+
+			kworker/37:1H-10775 [037] ....
+			349553.408757: nfs4_write: error=1 (0x1) 
+				fileid=00:31:8 fhandle=0x49af0c2f offset=0 count=1
+
+
+	User space pieces
+
+
+		New systemd service
+
+			creates the FDR instance
+
+			examines fdr config file to get probe names
+
+				NB: this allows admin customization
+				of which probes are to be enabled
+
+			enable the probes
+
+
+	Probe selection & naming
+
+
+		How are "always on" probes earmarked?
+
+			A: they aren't, this is a user space policy
+
+			A': by naming convention
+
+			existing ftrace probe:
+
+				trace_nfs4_write(...);
+
+			fdr probes
+
+				fdr_nfs_thing(...);
+
+		Why is this interesting?
+
+			the fdr daemon can just readdir the relevant
+			directories and enable the fdr probes, without
+			having to update a config file or be aware of
+			any new probes which might be 
+
+		Even with this convention, still useful to have a config file
+
+			The administrator can add other probes or disable
+			some of the fdr probes which are too noisy or
+			otherwise deemed uninteresting
+
+
+	Issues
+
+
+		Focus on content (the probes), not the mechanism
+
+		More probes!  Smarter probes!
+
+			Exceptional or unusual conditions
+
+			Error mapping or errors masked (or handled)
+
+			Latency bubbles
+
+			more, more, more
+
+		How do you retrieve unharvested probe data from a kdump?
+
+			extensions to crash?  Yes!
+
+

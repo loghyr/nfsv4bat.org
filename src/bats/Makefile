@@ -23,7 +23,8 @@ TALKS = \
 YEARS = \
 	${DESTROOT}/Documents/BakeAThon/2012/index.html \
 	${DESTROOT}/Documents/BakeAThon/2014/index.html \
-	${DESTROOT}/Documents/BakeAThon/2017/index.html
+	${DESTROOT}/Documents/BakeAThon/2017/index.html \
+	${DESTROOT}/Documents/BakeAThon/2018/index.html
 
 all: ${TALKS} ${YEARS}
 
