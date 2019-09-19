@@ -1,0 +1,44 @@
+$TTL 3D ;
+$ORIGIN 172.IN-ADDR.ARPA.
+@    3D    IN      SOA  ns1.nfsv4bat.org.  hostmaster.nfsv4bat.org. (
+                        201905130       ; serial#
+                        3600            ; refresh, seconds
+                        3600            ; retry, seconds
+                        3600            ; expire, seconds
+                        3600            ; minimum, seconds
+                        )
+
+                IN      NS      ns1.nfsv4bat.org.
+
+
+; Custom reverse records:
+1.0.16             IN      PTR     batman.nfsv4bat.org.
+2.0.16             IN      PTR     ipa.nfsv4bat.org.
+3.0.16             IN      PTR     ad.nfsv4bat.org.
+4.0.16             IN      PTR     dns.nfsv4bat.org.
+5.0.16             IN      PTR     madhat.nfsv4bat.org.
+6.0.16             IN      PTR     rhel6.nfsv4bat.org.
+7.0.16             IN      PTR     rhel7.nfsv4bat.org.
+8.0.16             IN      PTR     rhel8.nfsv4bat.org.
+9.0.16             IN      PTR     f29.nfsv4bat.org.
+10.0.16            IN      PTR     f30.nfsv4bat.org.
+11.0.16            IN      PTR     rashat.nfsv4bat.org.
+12.0.16            IN      PTR     eswitch.nfsv4bat.org.
+13.0.16            IN      PTR     ibswitch.nfsv4bat.org.
+14.0.16            IN      PTR     f31.nfsv4bat.org.
+50.0.16             IN      PTR     pd-mds.nfsv4bat.org.
+51.0.16             IN      PTR     pd-ds.nfsv4bat.org.
+255.0.16             IN      PTR     mikrotik.nfsv4bat.org.
+
+; ib.nfsv4bat.org reverse lookup zones:
+$GENERATE 0-255 $.3.17 PTR redhat-$.ib.nfsv4bat.org.
+$GENERATE 0-255 $.5.17 PTR oracle-$.ib.nfsv4bat.org.
+
+; vlan.nfsv4bat.org reverse lookup zones:
+$GENERATE 0-255 $.3.18 PTR redhat-$.vlan.nfsv4bat.org.
+$GENERATE 0-255 $.5.18 PTR oracle-$.vlan.nfsv4bat.org.
+
+; rocke.nfsv4bat.org reverse lookup zones:
+$GENERATE 0-255 $.3.19 PTR redhat-$.roce.nfsv4bat.org.
+$GENERATE 0-255 $.5.19 PTR oracle-$.roce.nfsv4bat.org.
+

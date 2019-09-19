@@ -1,6 +1,6 @@
 $TTL 3D
-$ORIGIN ib.nfsv4bat.org.
-@    3D    IN      SOA  ns1.ib.nfsv4bat.org.  hostmaster.ib.nfsv4bat.org. (
+$ORIGIN vlan.nfsv4bat.org.
+@    3D    IN      SOA  ns1.vlan.nfsv4bat.org.  hostmaster.vlan.nfsv4bat.org. (
                         201905130       ; serial#
                         3600            ; refresh, seconds
                         3600            ; retry, seconds
@@ -10,7 +10,7 @@ $ORIGIN ib.nfsv4bat.org.
 
                 NS      ns1             ; Inet Address of nameserver
 
-ns1	A	172.17.0.1
+ns1	A	172.18.0.1
 
-$GENERATE 0-255 redhat-$ A 172.17.3.$
-$GENERATE 0-255 oracle-$ A 172.17.5.$
+$GENERATE 0-255 redhat-$ A 172.18.3.$
+$GENERATE 0-255 oracle-$ A 172.18.5.$
