@@ -39,6 +39,7 @@ EVENTS = \
 	${DESTROOT}/Events/2018/September/BAT/index.html \
 	${DESTROOT}/Events/2019/May/BAT/index.html \
 	${DESTROOT}/Events/2019/Oct/BAT/index.html \
+	${DESTROOT}/Events/2020/May/BAT/index.html \
 	${DESTROOT}/Documents/Requirements/event_hosting.html
 
 all: ${STYLE} ${PAGES} ${EVENTS}
@@ -126,6 +127,10 @@ ${DESTROOT}/Events/2019/May/BAT/index.html: bat0519.html pre_root.html post_root
 
 ${DESTROOT}/Events/2019/Oct/BAT/index.html: bat1019.html pre_root.html post_root.html
 	${MKDIR} ${DESTROOT}/Events/2019/Oct/BAT
+	${CAT} pre_root.html $< post_root.html > $@
+
+${DESTROOT}/Events/2020/May/BAT/index.html: bat0520.html pre_root.html post_root.html
+	${MKDIR} ${DESTROOT}/Events/2020/May/BAT
 	${CAT} pre_root.html $< post_root.html > $@
 
 ${DESTROOT}/Documents/Requirements/event_hosting.html: batreqs.html pre_root.html post_root.html
