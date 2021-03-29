@@ -1,0 +1,60 @@
+
+
+
+
+
+> FDR overview
+
+	Flight Data Recorder by Bill.Baker@Oracle.com
+
+		"always on" diagnosability mechanism for Linux
+
+		Ideal for subsystems which have a rich set of ftrace probes
+			like NFS & SUNRPC
+
+		Focus on exception conditions, not FYI probes
+			though, not a policy of FDR, per se
+
+	What is FDR?
+
+		A systemd daemon which:
+
+			enables ftrace probes based on a config file
+
+			captures the output and saves it to a file
+
+			manages space consumption, logrotate(8)
+
+
+
+
+
+
+
+
+
+> Where can I get this awesome tech?
+
+	> Need to work with Steve Dickson to get this included in Fedora
+
+	> Source has released to github
+
+		https://github.com/oracle/fdr
+
+		"Universal Permissive License" (UPL)
+
+	> Download, build, customize, enjoy
+
+> Next steps
+
+	Get this into fedora, ultimately RHEL, OL
+
+	Enhancements:
+
+		eliminate modprobe keyword, hook into modprobe.d
+
+		raw data capture, ala trace.dat, vs. textual output
+
+	Previous:
+
+	http://nfsv4bat.org/Documents/BakeAThon/2018/fdr-preso.txt

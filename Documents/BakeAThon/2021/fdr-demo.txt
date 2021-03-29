@@ -1,0 +1,119 @@
+
+$ echo this is a rough script of the demo run by Bill Baker
+
+$ uname -r
+
+5.8.15-301.fc33.x86_64
+
+$ systemctl status fdr
+
+  fdr.service - Flight Data Recorder
+     Loaded: loaded (/usr/lib/systemd/system/fdr.service; disabled; vendor pres>
+     Active: inactive (dead)
+
+$ cd /etc/fdr.d
+
+$ echo notice the README for syntax; ls samples
+
+$ cat nfs.conf
+
+	...
+ 	instance nfs
+ 	modprobe nfsv4
+	enable nfs4/nfs4_exchange_id
+ 	enable nfs4/nfs4_create_session
+	enable nfs4/nfs4_reclaim_complete
+	...
+
+$ sudo systemctl enable fdr
+
+$ sudo systemctl start fdr
+
+$ systemctl status fdr
+  fdr.service - Flight Data Recorder
+     Loaded: loaded (/usr/lib/systemd/system/fdr.service; enabled; vendor prese>
+     Active: active (running) since Fri 2021-03-26 15:10:51 CDT; 13min ago
+    Process: 1444 ExecStart=/usr/sbin/fdrd (code=exited, status=0/SUCCESS)
+   Main PID: 1445 (fdrd)
+      Tasks: 2 (limit: 2327)
+     Memory: 11.0M
+        CPU: 38ms
+     CGroup: /system.slice/fdr.service
+             ├─1445 /usr/sbin/fdrd
+             └─1446 /usr/sbin/fdrd
+
+Mar 26 15:10:51 oracle4 systemd[1]: Starting Flight Data Recorder...
+Mar 26 15:10:51 oracle4 systemd[1]: Started Flight Data Recorder.
+Mar 26 15:10:51 oracle4 fdrd[1445]: reading /etc/fdr.d/nfs.conf
+Mar 26 15:10:51 oracle4 fdrd[1446]: creating: /sys/kernel/debug/tracing/instanc>
+Mar 26 15:10:51 oracle4 fdrd[1446]: saving from /sys/kernel/debug/tracing/insta>
+
+$ echo ls /sys/kernel/debug/tracing/instances/nfs/events/nfs4
+
+	...
+
+$ echo ls /sys/kernel/debug/tracing/instances/nfs/events/nfs
+
+	...
+
+$ echo ls /sys/kernel/debug/tracing/instances/nfs/events/sunrpc
+
+	...
+
+$ sudo mount oracle3:/export /mnt
+
+$ sudo cat /var/log/nfs.log
+
+       mount.nfs-1375    [000] ....   366.037668: nfs4_exchange_id: error=0 (OK) dstaddr=oracle3
+ 192.168.86.79-m-1382    [000] ....   366.038091: nfs4_exchange_id: error=0 (OK) dstaddr=oracle3
+ 192.168.86.79-m-1382    [000] ....   366.040976: nfs4_create_session: error=0 (OK) dstaddr=oracle3
+ 192.168.86.79-m-1382    [000] ....   366.041437: nfs4_reclaim_complete: error=0 (OK) dstaddr=oracle3
+
+$ runtests -b -f /mnt/d
+
+# echo let us enable nfs4_xdr_status
+
+$ sudo vi nfs.conf
+
+    enable nfs4/nfs4_xdr_status    (error != 0)
+
+$ sudo systemctl restart fdr
+
+$ runtests -b -f /mnt/d
+
+$ sudo cat /var/log/nfs.log
+
+           test6-1472    [000] ....   548.801471: nfs4_xdr_status: task:1750@3 xid=0xdd169101 error=-2 (ENOENT) operation=15
+           test7-1474    [000] ....   549.064593: nfs4_xdr_status: task:2179@3 xid=0x89189101 error=-2 (ENOENT) operation=15
+           test7-1474    [000] ....   549.069040: nfs4_xdr_status: task:2188@3 xid=0x91189101 error=-2 (ENOENT) operation=15
+           test7-1474    [000] ....   549.073217: nfs4_xdr_status: task:2197@3 xid=0x99189101 error=-2 (ENOENT) operation=15
+           test7-1474    [000] ....   549.077485: nfs4_xdr_status: task:2206@3 xid=0xa1189101 error=-2 (ENOENT) operation=15
+           test7-1474    [000] ....   549.081768: nfs4_xdr_status: task:2215@3 xid=0xa9189101 error=-2 (ENOENT) operation=15
+           test7-1474    [000] ....   549.085873: nfs4_xdr_status: task:2224@3 xid=0xb1189101 error=-2 (ENOENT) operation=15
+           test7-1474    [000] ....   549.089951: nfs4_xdr_status: task:2233@3 xid=0xb9189101 error=-2 (ENOENT) operation=15
+           test7-1474    [000] ....   549.093959: nfs4_xdr_status: task:2242@3 xid=0xc1189101 error=-2 (ENOENT) operation=15
+           test7-1474    [000] ....   549.098008: nfs4_xdr_status: task:2251@3 xid=0xc9189101 error=-2 (ENOENT) operation=15
+           test7-1474    [000] ....   549.101887: nfs4_xdr_status: task:2260@3 xid=0xd1189101 error=-2 (ENOENT) operation=15
+
+$ echo unfortunately, some errors are handled by the normal operation of the
+$ echo client, ENOENT on LOOKUP, but we can filter that too
+
+$ sudo vi nfs.conf
+
+    enable nfs4/nfs4_xdr_status    (error != 0 && (!(error == 2 && op == 15)))
+
+$ sudo systemctl restart fdr
+
+$ echo much better
+
+$ ls -l /mnt
+	ls: cannot access '/mnt/krb5': Operation not permitted
+	??????????? ? ?       ?       ?            ? krb5
+
+$ sudo cat /var/log/nfs.log
+
+ls-1735    [000] ....  5924.504734: nfs4_xdr_status: task:3481@3 xid=0xe339e56b error=-10016 (WRONGSEC) operation=15
+ls-1735    [000] ....  5924.505701: nfs4_secinfo: error=0 (OK) name=00:30:4/krb5
+
+$ echo client saw WRONGSEC, did SECINFO, but not set up for krb5
+
