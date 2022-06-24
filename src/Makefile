@@ -43,6 +43,7 @@ EVENTS = \
 	${DESTROOT}/Events/2021/Feb/BAT/index.html \
 	${DESTROOT}/Events/2021/Oct/BAT/index.html \
 	${DESTROOT}/Events/2022/Apr/BAT/index.html \
+	${DESTROOT}/Events/2022/Oct/BAT/index.html \
 	${DESTROOT}/Documents/Requirements/event_hosting.html
 
 all: ${STYLE} ${PAGES} ${EVENTS}
@@ -145,6 +146,10 @@ ${DESTROOT}/Events/2021/Oct/BAT/index.html: bat1021.html pre_root.html post_root
 	${CAT} pre_root.html $< post_root.html > $@
 
 ${DESTROOT}/Events/2022/Apr/BAT/index.html: bat0422.html pre_root.html post_root.html
+	${MKDIR} ${DESTROOT}/Events/2022/Apr/BAT
+	${CAT} pre_root.html $< post_root.html > $@
+
+${DESTROOT}/Events/2022/Oct/BAT/index.html: bat1022.html pre_root.html post_root.html
 	${MKDIR} ${DESTROOT}/Events/2022/Apr/BAT
 	${CAT} pre_root.html $< post_root.html > $@
 
