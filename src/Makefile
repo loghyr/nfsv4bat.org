@@ -150,7 +150,7 @@ ${DESTROOT}/Events/2022/Apr/BAT/index.html: bat0422.html pre_root.html post_root
 	${CAT} pre_root.html $< post_root.html > $@
 
 ${DESTROOT}/Events/2022/Oct/BAT/index.html: bat1022.html pre_root.html post_root.html
-	${MKDIR} ${DESTROOT}/Events/2022/Apr/BAT
+	${MKDIR} ${DESTROOT}/Events/2022/Oct/BAT
 	${CAT} pre_root.html $< post_root.html > $@
 
 ${DESTROOT}/Documents/Requirements/event_hosting.html: batreqs.html pre_root.html post_root.html
