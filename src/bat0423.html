@@ -34,14 +34,35 @@
 
 <h1>Registration</h1>
 	<p>
-	To register please use the following document
-	<a href=https://docs.google.com/spreadsheets/d/1rs245drIdTQAiTSNZU3V0gpzhXNj5n-W2fJyy_iQIyM/edit#gid=0>Spring Bat 2023</a>.
-	We will uses the information to send you information on how
-	to join the VPN network.
-	</p>
+	We will be using a tailscale VPN to connect peer-to-peer 
+	connections on the BAT network. 
+	<br> To gain access to the 
+	network please register at
+	<a href=https://docs.google.com/spreadsheets/d/1rs245drIdTQAiTSNZU3V0gpzhXNj5n-W2fJyy_iQIyM/edit#gid=0>Spring 2023 Registration</a>.
+	</br>
 	<p>
-		A Wireguard tunnel is also available upon request.
+	Here are the steps to access the network:
 	</p>
+	</p>
+	<ul>
+		<li>Download the tailscale bits</li>
+			<ul><li>
+				<a href=https://tailscale.com/download>Tailscale Download</a>
+			</li></ul>
+		<li>Register with the BAT server</li>
+			<ul><li>
+			tailscale up --login-server https://headscale.nfsv4.dev
+			</li></ul>
+		<li>The registration will give an authentication link</li>
+		<li>Use that link to</li>
+			<ul><li>Create an account on the BAT server</li></ul>
+			<ul><li>Authenticate your machine[s]</li></ul>
+	</ul>
+	Once the tailscale interface is up, DNS will be able to find other machines
+			<ul><li>
+				The command 'tailscale status' will show those machines
+			</li></ul>
+	<p>
 
 <h1>Communications</h1>
 	<p>
