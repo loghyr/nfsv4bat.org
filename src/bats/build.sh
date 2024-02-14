@@ -15,3 +15,4 @@ cat pre_root_talks.html talks.html post_root_talks.html > ../../Documents/BakeAT
 ./yearify.sh 2017
 ./yearify.sh 2018
 ./yearify.sh 2021
+./yearify.sh 2023
