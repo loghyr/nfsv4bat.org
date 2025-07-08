@@ -179,7 +179,7 @@ ${DESTROOT}/Events/2025/May/BAT/index.html: bat0525.html pre_root.html post_root
 	${MKDIR} ${DESTROOT}/Events/2025/May/BAT
 	${CAT} pre_root.html $< post_root.html > $@
 
-${DESTROOT}/Events/2025/Oct/BAT/index.html: bat0525.html pre_root.html post_root.html
+${DESTROOT}/Events/2025/Oct/BAT/index.html: bat1025.html pre_root.html post_root.html
 	${MKDIR} ${DESTROOT}/Events/2025/Oct/BAT
 	${CAT} pre_root.html $< post_root.html > $@
 
