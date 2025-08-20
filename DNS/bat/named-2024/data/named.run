@@ -1,0 +1,77 @@
+managed-keys-zone: loaded serial 259
+zone localhost.localdomain/IN: loaded serial 0
+zone 0.in-addr.arpa/IN: loaded serial 0
+zone 12.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 4.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 1.0.0.127.in-addr.arpa/IN: loaded serial 0
+zone 1.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 10.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone localhost/IN: loaded serial 0
+zone 5.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 3.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 6.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 2.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 9.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 7.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 8.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: loaded serial 0
+zone roce.nfsv4bat.org/IN: loaded serial 201905130
+network unreachable resolving './DNSKEY/IN': 4.4.4.4#53
+network unreachable resolving './DNSKEY/IN': 8.8.8.8#53
+managed-keys-zone: Unable to fetch DNSKEY set '.': SERVFAIL
+zone 172.in-addr.arpa/IN: loaded serial 202210111
+zone 11.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone vlan.nfsv4bat.org/IN: loaded serial 201905130
+zone nfsv4bat.org/IN: loaded serial 201309271
+zone ib.nfsv4bat.org/IN: loaded serial 201905130
+all zones loaded
+running
+listening on IPv4 interface br0, 172.16.0.1#53
+network unreachable resolving './DNSKEY/IN': 8.8.8.8#53
+network unreachable resolving './DNSKEY/IN': 4.4.4.4#53
+client @0x7fb28003b158 127.0.0.1#43738 (.): query failed (SERVFAIL) for ./IN/DNSKEY at ../../../lib/ns/query.c:7394
+client @0x7fb28c005368 127.0.0.1#51788 (.): query failed (SERVFAIL) for ./IN/DNSKEY at ../../../lib/ns/query.c:6664
+client @0x7fb28c005368 127.0.0.1#53393 (.): query failed (SERVFAIL) for ./IN/DNSKEY at ../../../lib/ns/query.c:6664
+client @0x7fb28003b158 127.0.0.1#40496 (.): query failed (SERVFAIL) for ./IN/DNSKEY at ../../../lib/ns/query.c:6664
+network unreachable resolving '2.rhel.pool.ntp.org/A/IN': 8.8.8.8#53
+network unreachable resolving '2.rhel.pool.ntp.org/AAAA/IN': 8.8.8.8#53
+network unreachable resolving '2.rhel.pool.ntp.org/A/IN': 4.4.4.4#53
+network unreachable resolving '2.rhel.pool.ntp.org/AAAA/IN': 4.4.4.4#53
+client @0x7fb27c002158 127.0.0.1#53357 (2.rhel.pool.ntp.org): query failed (SERVFAIL) for 2.rhel.pool.ntp.org/IN/A at ../../../lib/ns/query.c:7394
+client @0x7fb27c006d78 127.0.0.1#53357 (2.rhel.pool.ntp.org): query failed (SERVFAIL) for 2.rhel.pool.ntp.org/IN/AAAA at ../../../lib/ns/query.c:7394
+client @0x7fb27c006d78 127.0.0.1#53357 (2.rhel.pool.ntp.org): query failed (SERVFAIL) for 2.rhel.pool.ntp.org/IN/A at ../../../lib/ns/query.c:6664
+client @0x7fb27c002158 127.0.0.1#53357 (2.rhel.pool.ntp.org): query failed (SERVFAIL) for 2.rhel.pool.ntp.org/IN/AAAA at ../../../lib/ns/query.c:6664
+network unreachable resolving '2.rhel.pool.ntp.org.boston.devel.redhat.com/A/IN': 8.8.8.8#53
+network unreachable resolving '2.rhel.pool.ntp.org.boston.devel.redhat.com/AAAA/IN': 8.8.8.8#53
+network unreachable resolving '2.rhel.pool.ntp.org.boston.devel.redhat.com/A/IN': 4.4.4.4#53
+network unreachable resolving '2.rhel.pool.ntp.org.boston.devel.redhat.com/AAAA/IN': 4.4.4.4#53
+client @0x7fb27c002158 127.0.0.1#53519 (2.rhel.pool.ntp.org.boston.devel.redhat.com): query failed (SERVFAIL) for 2.rhel.pool.ntp.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:7394
+client @0x7fb27c006d78 127.0.0.1#53519 (2.rhel.pool.ntp.org.boston.devel.redhat.com): query failed (SERVFAIL) for 2.rhel.pool.ntp.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:7394
+client @0x7fb27c006d78 127.0.0.1#53519 (2.rhel.pool.ntp.org.boston.devel.redhat.com): query failed (SERVFAIL) for 2.rhel.pool.ntp.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6664
+client @0x7fb27c002158 127.0.0.1#53519 (2.rhel.pool.ntp.org.boston.devel.redhat.com): query failed (SERVFAIL) for 2.rhel.pool.ntp.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6664
+client @0x7fb288002748 127.0.0.1#54564 (2.rhel.pool.ntp.org): query failed (SERVFAIL) for 2.rhel.pool.ntp.org/IN/A at ../../../lib/ns/query.c:6664
+client @0x7fb288007188 127.0.0.1#54564 (2.rhel.pool.ntp.org): query failed (SERVFAIL) for 2.rhel.pool.ntp.org/IN/AAAA at ../../../lib/ns/query.c:6664
+client @0x7fb288007188 127.0.0.1#54564 (2.rhel.pool.ntp.org): query failed (SERVFAIL) for 2.rhel.pool.ntp.org/IN/A at ../../../lib/ns/query.c:6664
+client @0x7fb288002748 127.0.0.1#54564 (2.rhel.pool.ntp.org): query failed (SERVFAIL) for 2.rhel.pool.ntp.org/IN/AAAA at ../../../lib/ns/query.c:6664
+client @0x7fb29e1d67a8 127.0.0.1#46842 (2.rhel.pool.ntp.org.boston.devel.redhat.com): query failed (SERVFAIL) for 2.rhel.pool.ntp.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6664
+client @0x7fb29e1da618 127.0.0.1#46842 (2.rhel.pool.ntp.org.boston.devel.redhat.com): query failed (SERVFAIL) for 2.rhel.pool.ntp.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6664
+client @0x7fb29e1da618 127.0.0.1#46842 (2.rhel.pool.ntp.org.boston.devel.redhat.com): query failed (SERVFAIL) for 2.rhel.pool.ntp.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6664
+client @0x7fb29e1d67a8 127.0.0.1#46842 (2.rhel.pool.ntp.org.boston.devel.redhat.com): query failed (SERVFAIL) for 2.rhel.pool.ntp.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6664
+network unreachable resolving '2.rhel.pool.ntp.org/A/IN': 8.8.8.8#53
+network unreachable resolving '2.rhel.pool.ntp.org/AAAA/IN': 8.8.8.8#53
+network unreachable resolving '2.rhel.pool.ntp.org/A/IN': 4.4.4.4#53
+network unreachable resolving '2.rhel.pool.ntp.org/AAAA/IN': 4.4.4.4#53
+client @0x7fb290002168 127.0.0.1#33895 (2.rhel.pool.ntp.org): query failed (SERVFAIL) for 2.rhel.pool.ntp.org/IN/A at ../../../lib/ns/query.c:7394
+client @0x7fb290004578 127.0.0.1#33895 (2.rhel.pool.ntp.org): query failed (SERVFAIL) for 2.rhel.pool.ntp.org/IN/AAAA at ../../../lib/ns/query.c:7394
+client @0x7fb290004578 127.0.0.1#33895 (2.rhel.pool.ntp.org): query failed (SERVFAIL) for 2.rhel.pool.ntp.org/IN/A at ../../../lib/ns/query.c:6664
+client @0x7fb290002168 127.0.0.1#33895 (2.rhel.pool.ntp.org): query failed (SERVFAIL) for 2.rhel.pool.ntp.org/IN/AAAA at ../../../lib/ns/query.c:6664
+network unreachable resolving '2.rhel.pool.ntp.org.boston.devel.redhat.com/A/IN': 8.8.8.8#53
+network unreachable resolving '2.rhel.pool.ntp.org.boston.devel.redhat.com/AAAA/IN': 8.8.8.8#53
+network unreachable resolving '2.rhel.pool.ntp.org.boston.devel.redhat.com/A/IN': 4.4.4.4#53
+network unreachable resolving '2.rhel.pool.ntp.org.boston.devel.redhat.com/AAAA/IN': 4.4.4.4#53
+client @0x7fb288002748 127.0.0.1#46952 (2.rhel.pool.ntp.org.boston.devel.redhat.com): query failed (SERVFAIL) for 2.rhel.pool.ntp.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:7394
+client @0x7fb288007188 127.0.0.1#46952 (2.rhel.pool.ntp.org.boston.devel.redhat.com): query failed (SERVFAIL) for 2.rhel.pool.ntp.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:7394
+client @0x7fb288007188 127.0.0.1#46952 (2.rhel.pool.ntp.org.boston.devel.redhat.com): query failed (SERVFAIL) for 2.rhel.pool.ntp.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6664
+client @0x7fb288002748 127.0.0.1#46952 (2.rhel.pool.ntp.org.boston.devel.redhat.com): query failed (SERVFAIL) for 2.rhel.pool.ntp.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6664
+managed-keys-zone: Key 20326 for zone . is now trusted (acceptance timer complete)
+managed-keys-zone: Key 38696 for zone . is now trusted (acceptance timer complete)

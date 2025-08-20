@@ -1,0 +1,857 @@
+managed-keys-zone: loaded serial 205
+zone 1.0.0.127.in-addr.arpa/IN: loaded serial 0
+zone 0.in-addr.arpa/IN: loaded serial 0
+zone 1.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 10.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 11.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 6.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 2.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 12.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone ib.nfsv4bat.org/IN: loaded serial 201905130
+zone 8.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone localhost.localdomain/IN: loaded serial 0
+zone 5.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 9.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 7.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone localhost/IN: loaded serial 0
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: loaded serial 0
+network unreachable resolving './DNSKEY/IN': 10.200.0.245#53
+managed-keys-zone: Unable to fetch DNSKEY set '.': SERVFAIL
+zone roce.nfsv4bat.org/IN: loaded serial 201905130
+zone 172.in-addr.arpa/IN: loaded serial 202210111
+zone 3.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone nfsv4bat.org/IN: loaded serial 201309271
+zone vlan.nfsv4bat.org/IN: loaded serial 201905130
+zone 4.16.172.in-addr.arpa/IN: loaded serial 201107111
+all zones loaded
+running
+listening on IPv4 interface br0, 172.16.0.1#53
+network unreachable resolving 'detectportal.firefox.com/A/IN': 10.200.0.245#53
+network unreachable resolving 'example.org/A/IN': 10.200.0.245#53
+client @0x7f7c88000cc8 127.0.0.1#57224 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/A at ../../../lib/ns/query.c:7388
+network unreachable resolving 'ipv4only.arpa/A/IN': 10.200.0.245#53
+network unreachable resolving 'detectportal.firefox.com/AAAA/IN': 10.200.0.245#53
+client @0x7f7c8c00e7d8 127.0.0.1#36057 (example.org): query failed (SERVFAIL) for example.org/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f7c9400d328 127.0.0.1#53352 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/A at ../../../lib/ns/query.c:6658
+network unreachable resolving 'example.org/AAAA/IN': 10.200.0.245#53
+client @0x7f7c90000cc8 127.0.0.1#53772 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c94001b68 127.0.0.1#51474 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/A at ../../../lib/ns/query.c:7388
+network unreachable resolving 'detectportal.firefox.com/AAAA/IN': 10.200.0.245#53
+client @0x7f7c94008d88 127.0.0.1#51474 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f7c94011178 127.0.0.1#53352 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/AAAA at ../../../lib/ns/query.c:7388
+network unreachable resolving 'ipv4only.arpa/AAAA/IN': 10.200.0.245#53
+client @0x7f7c94011178 127.0.0.1#53352 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9c017f78 127.0.0.1#51229 (example.org): query failed (SERVFAIL) for example.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c94008d88 127.0.0.1#51474 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c94001b68 127.0.0.1#53352 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/AAAA at ../../../lib/ns/query.c:6658
+network unreachable resolving 'detectportal.firefox.com.boston.devel.redhat.com/A/IN': 10.200.0.245#53
+client @0x7f7c9c004c68 127.0.0.1#53307 (example.org): query failed (SERVFAIL) for example.org/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f7c88000cc8 127.0.0.1#55060 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f7c9400d328 127.0.0.1#51474 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9c0096a8 127.0.0.1#39606 (ipv4only.arpa): query failed (SERVFAIL) for ipv4only.arpa/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f7c9c00f438 127.0.0.1#53307 (example.org): query failed (SERVFAIL) for example.org/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f7c9c0139d8 127.0.0.1#39606 (ipv4only.arpa): query failed (SERVFAIL) for ipv4only.arpa/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f7c8c00e7d8 127.0.0.1#37392 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c98001518 127.0.0.1#45170 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9c00f438 127.0.0.1#41563 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+network unreachable resolving 'example.org.boston.devel.redhat.com/A/IN': 10.200.0.245#53
+client @0x7f7c9c004c68 127.0.0.1#53307 (example.org): query failed (SERVFAIL) for example.org/IN/A at ../../../lib/ns/query.c:6658
+network unreachable resolving 'detectportal.firefox.com.boston.devel.redhat.com/AAAA/IN': 10.200.0.245#53
+client @0x7f7c9c017f78 127.0.0.1#53307 (example.org): query failed (SERVFAIL) for example.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8c016158 127.0.0.1#37392 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f7c9c01e2e8 127.0.0.1#39606 (ipv4only.arpa): query failed (SERVFAIL) for ipv4only.arpa/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7ca004d978 127.0.0.1#60134 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8c016158 127.0.0.1#37392 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8c00e7d8 127.0.0.1#37392 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7ca004d978 127.0.0.1#32946 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9c020108 127.0.0.1#39606 (ipv4only.arpa): query failed (SERVFAIL) for ipv4only.arpa/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c90000cc8 127.0.0.1#43588 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9c0139d8 127.0.0.1#49139 (example.org.boston.devel.redhat.com): query failed (SERVFAIL) for example.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f7c9c0096a8 127.0.0.1#41563 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f7c98001518 127.0.0.1#45632 (example.org.boston.devel.redhat.com): query failed (SERVFAIL) for example.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9c0096a8 127.0.0.1#53686 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9c0139d8 127.0.0.1#33472 (example.org.boston.devel.redhat.com): query failed (SERVFAIL) for example.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9c020108 127.0.0.1#41563 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9c01e2e8 127.0.0.1#41563 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c90000cc8 127.0.0.1#43121 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/A at ../../../lib/ns/query.c:6658
+network unreachable resolving 'example.org.boston.devel.redhat.com/AAAA/IN': 10.200.0.245#53
+client @0x7f7ca004d978 127.0.0.1#50319 (example.org): query failed (SERVFAIL) for example.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c98001518 127.0.0.1#52392 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9c01e2e8 127.0.0.1#53923 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9c020108 127.0.0.1#53923 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9804a5c8 127.0.0.1#48003 (example.org): query failed (SERVFAIL) for example.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9c020108 127.0.0.1#53923 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c98045f58 127.0.0.1#45632 (example.org.boston.devel.redhat.com): query failed (SERVFAIL) for example.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f7c90000cc8 127.0.0.1#59733 (example.org.boston.devel.redhat.com): query failed (SERVFAIL) for example.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9c01e2e8 127.0.0.1#53923 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/AAAA at ../../../lib/ns/query.c:6658
+network unreachable resolving 'ipv4only.arpa.boston.devel.redhat.com/A/IN': 10.200.0.245#53
+client @0x7f7c98045f58 127.0.0.1#45632 (example.org.boston.devel.redhat.com): query failed (SERVFAIL) for example.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c90000cc8 127.0.0.1#33287 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9804a5c8 127.0.0.1#45632 (example.org.boston.devel.redhat.com): query failed (SERVFAIL) for example.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c98001518 127.0.0.1#48614 (example.org.boston.devel.redhat.com): query failed (SERVFAIL) for example.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+network unreachable resolving 'ipv4only.arpa.boston.devel.redhat.com/AAAA/IN': 10.200.0.245#53
+client @0x7f7caa1dc3b8 127.0.0.1#43298 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c90005908 127.0.0.1#33287 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c88000cc8 127.0.0.1#45285 (example.org): query failed (SERVFAIL) for example.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8c00e7d8 127.0.0.1#39299 (example.org): query failed (SERVFAIL) for example.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1e0208 127.0.0.1#43298 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c90005908 127.0.0.1#33287 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1e2048 127.0.0.1#43919 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7ca004d978 127.0.0.1#43881 (example.org): query failed (SERVFAIL) for example.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1e2048 127.0.0.1#43298 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c90000cc8 127.0.0.1#33287 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7ca004d978 127.0.0.1#52542 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1e0208 127.0.0.1#43298 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c88007f38 127.0.0.1#45285 (example.org): query failed (SERVFAIL) for example.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7caa1dc3b8 127.0.0.1#41982 (example.org.boston.devel.redhat.com): query failed (SERVFAIL) for example.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1d1868 127.0.0.1#40769 (ipv4only.arpa.boston.devel.redhat.com): query failed (SERVFAIL) for ipv4only.arpa.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f7caa1d7e18 127.0.0.1#40769 (ipv4only.arpa.boston.devel.redhat.com): query failed (SERVFAIL) for ipv4only.arpa.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f7c9400d328 127.0.0.1#43507 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1d7e18 127.0.0.1#55841 (example.org.boston.devel.redhat.com): query failed (SERVFAIL) for example.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c94001b68 127.0.0.1#43507 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8800bd68 127.0.0.1#55706 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1d1868 127.0.0.1#40769 (ipv4only.arpa.boston.devel.redhat.com): query failed (SERVFAIL) for ipv4only.arpa.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c94001b68 127.0.0.1#43507 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1dc3b8 127.0.0.1#40769 (ipv4only.arpa.boston.devel.redhat.com): query failed (SERVFAIL) for ipv4only.arpa.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9400d328 127.0.0.1#43507 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7caa1e0208 127.0.0.1#43298 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c98001518 127.0.0.1#59012 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8800fbb8 127.0.0.1#55706 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c98001518 127.0.0.1#44134 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9400d328 127.0.0.1#48593 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9804a5c8 127.0.0.1#44134 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8c00e7d8 127.0.0.1#48737 (ipv4only.arpa): query failed (SERVFAIL) for ipv4only.arpa/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1e0208 127.0.0.1#52286 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8800fbb8 127.0.0.1#45285 (example.org): query failed (SERVFAIL) for example.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8c016158 127.0.0.1#48737 (ipv4only.arpa): query failed (SERVFAIL) for ipv4only.arpa/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8800bd68 127.0.0.1#45285 (example.org): query failed (SERVFAIL) for example.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9804a5c8 127.0.0.1#44134 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c88007f38 127.0.0.1#55706 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1e0208 127.0.0.1#34689 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8c016158 127.0.0.1#48737 (ipv4only.arpa): query failed (SERVFAIL) for ipv4only.arpa/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c88000cc8 127.0.0.1#55706 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c98001518 127.0.0.1#44134 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8c00e7d8 127.0.0.1#48737 (ipv4only.arpa): query failed (SERVFAIL) for ipv4only.arpa/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c88000cc8 127.0.0.1#43772 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1e0208 127.0.0.1#39742 (example.org.boston.devel.redhat.com): query failed (SERVFAIL) for example.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c88007f38 127.0.0.1#47494 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9c01e2e8 127.0.0.1#47528 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1dc3b8 127.0.0.1#39742 (example.org.boston.devel.redhat.com): query failed (SERVFAIL) for example.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8800bd68 127.0.0.1#47494 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9c020108 127.0.0.1#47528 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7caa1dc3b8 127.0.0.1#39742 (example.org.boston.devel.redhat.com): query failed (SERVFAIL) for example.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8800fbb8 127.0.0.1#46342 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1e0208 127.0.0.1#39742 (example.org.boston.devel.redhat.com): query failed (SERVFAIL) for example.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9c020108 127.0.0.1#47528 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9c01e2e8 127.0.0.1#47528 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9400d328 127.0.0.1#42557 (example.org): query failed (SERVFAIL) for example.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c88023118 127.0.0.1#58132 (ipv4only.arpa.boston.devel.redhat.com): query failed (SERVFAIL) for ipv4only.arpa.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c94001b68 127.0.0.1#42557 (example.org): query failed (SERVFAIL) for example.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c88026f78 127.0.0.1#58132 (ipv4only.arpa.boston.devel.redhat.com): query failed (SERVFAIL) for ipv4only.arpa.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c94001b68 127.0.0.1#42557 (example.org): query failed (SERVFAIL) for example.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9400d328 127.0.0.1#42557 (example.org): query failed (SERVFAIL) for example.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8c00e7d8 127.0.0.1#39997 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c88026f78 127.0.0.1#47494 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c94008d88 127.0.0.1#37108 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8c016158 127.0.0.1#39997 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c88023118 127.0.0.1#47494 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8800fbb8 127.0.0.1#58132 (ipv4only.arpa.boston.devel.redhat.com): query failed (SERVFAIL) for ipv4only.arpa.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8c016158 127.0.0.1#39997 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c94008d88 127.0.0.1#50827 (example.org.boston.devel.redhat.com): query failed (SERVFAIL) for example.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8c00e7d8 127.0.0.1#39997 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8800bd68 127.0.0.1#58132 (ipv4only.arpa.boston.devel.redhat.com): query failed (SERVFAIL) for ipv4only.arpa.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9400d328 127.0.0.1#50827 (example.org.boston.devel.redhat.com): query failed (SERVFAIL) for example.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7ca004d978 127.0.0.1#38717 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9400d328 127.0.0.1#50827 (example.org.boston.devel.redhat.com): query failed (SERVFAIL) for example.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c94008d88 127.0.0.1#50827 (example.org.boston.devel.redhat.com): query failed (SERVFAIL) for example.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c90000cc8 127.0.0.1#57367 (ipv4only.arpa): query failed (SERVFAIL) for ipv4only.arpa/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7ca002e518 127.0.0.1#38717 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c90005908 127.0.0.1#57367 (ipv4only.arpa): query failed (SERVFAIL) for ipv4only.arpa/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7ca002e518 127.0.0.1#38717 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c90005908 127.0.0.1#57367 (ipv4only.arpa): query failed (SERVFAIL) for ipv4only.arpa/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7ca004d978 127.0.0.1#38717 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c90000cc8 127.0.0.1#57367 (ipv4only.arpa): query failed (SERVFAIL) for ipv4only.arpa/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9c01e2e8 127.0.0.1#40846 (ipv4only.arpa.boston.devel.redhat.com): query failed (SERVFAIL) for ipv4only.arpa.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9c020108 127.0.0.1#40846 (ipv4only.arpa.boston.devel.redhat.com): query failed (SERVFAIL) for ipv4only.arpa.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7caa1e0208 127.0.0.1#41622 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9c020108 127.0.0.1#40846 (ipv4only.arpa.boston.devel.redhat.com): query failed (SERVFAIL) for ipv4only.arpa.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1dc3b8 127.0.0.1#41622 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9c01e2e8 127.0.0.1#40846 (ipv4only.arpa.boston.devel.redhat.com): query failed (SERVFAIL) for ipv4only.arpa.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7caa1dc3b8 127.0.0.1#41622 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1e0208 127.0.0.1#41622 (detectportal.firefox.com): query failed (SERVFAIL) for detectportal.firefox.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7caa1e0208 127.0.0.1#60769 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1dc3b8 127.0.0.1#60769 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7caa1dc3b8 127.0.0.1#60769 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1e0208 127.0.0.1#60769 (detectportal.firefox.com.boston.devel.redhat.com): query failed (SERVFAIL) for detectportal.firefox.com.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+network unreachable resolving 'headscale.nfsv4.dev/AAAA/IN': 100.100.100.100#53
+network unreachable resolving 'headscale.nfsv4.dev/A/IN': 100.100.100.100#53
+client @0x7f7caa1e0208 127.0.0.1#46074 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f7ca004d978 127.0.0.1#40062 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f7ca003ac18 ::1#43342 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c90009c68 ::1#54018 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c94008d88 127.0.0.1#50030 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7ca004d978 127.0.0.1#43111 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9c024de8 ::1#40922 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9804c338 ::1#55520 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+network unreachable resolving 'headscale.nfsv4.dev.boston.devel.redhat.com/AAAA/IN': 10.200.0.245#53
+network unreachable resolving 'headscale.nfsv4.dev.boston.devel.redhat.com/A/IN': 10.200.0.245#53
+client @0x7f7c8800bd68 127.0.0.1#58024 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f7c90000cc8 127.0.0.1#36114 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f7c8c01a8a8 ::1#47385 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9c01e2e8 127.0.0.1#41558 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8c01e718 ::1#40524 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9c024de8 ::1#51559 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c98001518 127.0.0.1#33411 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8c01e718 ::1#55874 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8c00e7d8 127.0.0.1#45908 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7caa1e0208 127.0.0.1#41390 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8c01e718 ::1#34278 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7ca003ac18 ::1#53724 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c98001518 127.0.0.1#52258 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7caa1e0208 127.0.0.1#39212 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9c024de8 ::1#36262 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8802bac8 ::1#44134 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1e0208 127.0.0.1#46503 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9c01e2e8 127.0.0.1#44413 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9804c338 ::1#37181 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c90009c68 ::1#38942 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c90000cc8 127.0.0.1#46307 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c98001518 127.0.0.1#42726 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9804c338 ::1#60875 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8c01e718 ::1#47981 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+network unreachable resolving 'incoming.telemetry.mozilla.org/A/IN': 10.200.0.245#53
+network unreachable resolving 'incoming.telemetry.mozilla.org/AAAA/IN': 10.200.0.245#53
+client @0x7f7c90000cc8 127.0.0.1#59528 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f7c9c01e2e8 127.0.0.1#57688 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f7c90005908 127.0.0.1#59528 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f7c90005908 127.0.0.1#59528 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7ca004d978 127.0.0.1#47666 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c90000cc8 127.0.0.1#59528 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+network unreachable resolving 'incoming.telemetry.mozilla.org.boston.devel.redhat.com/A/IN': 10.200.0.245#53
+client @0x7f7c8800bd68 127.0.0.1#55420 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f7c98001518 127.0.0.1#48155 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:7388
+network unreachable resolving 'incoming.telemetry.mozilla.org.boston.devel.redhat.com/AAAA/IN': 10.200.0.245#53
+client @0x7f7c9804a5c8 127.0.0.1#48155 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f7c90000cc8 127.0.0.1#37518 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9804a5c8 127.0.0.1#48155 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c98001518 127.0.0.1#48155 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8c00e7d8 127.0.0.1#49101 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c94008d88 127.0.0.1#57266 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8c016158 127.0.0.1#49101 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7ca004d978 127.0.0.1#35922 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8c016158 127.0.0.1#49101 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9c01e2e8 127.0.0.1#34966 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8c00e7d8 127.0.0.1#49101 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c90000cc8 127.0.0.1#41159 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7ca004d978 127.0.0.1#60471 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7ca002e518 127.0.0.1#60471 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7ca002e518 127.0.0.1#60471 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7ca004d978 127.0.0.1#60471 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7caa1e0208 127.0.0.1#38070 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1dc3b8 127.0.0.1#38070 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7caa1dc3b8 127.0.0.1#38070 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1e0208 127.0.0.1#38070 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c94008d88 127.0.0.1#49330 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9400d328 127.0.0.1#49330 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9400d328 127.0.0.1#49330 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c94008d88 127.0.0.1#49330 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8c00e7d8 127.0.0.1#53155 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8c016158 127.0.0.1#53155 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8c016158 127.0.0.1#53155 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8c00e7d8 127.0.0.1#53155 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8800bd68 127.0.0.1#35341 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8800fbb8 127.0.0.1#35341 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8800fbb8 127.0.0.1#35341 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8800bd68 127.0.0.1#35341 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c98001518 127.0.0.1#39850 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9804a5c8 127.0.0.1#39850 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9804a5c8 127.0.0.1#39850 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c98001518 127.0.0.1#39850 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c98001518 127.0.0.1#41116 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9804a5c8 127.0.0.1#41116 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9804a5c8 127.0.0.1#41116 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c98001518 127.0.0.1#41116 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9c01e2e8 127.0.0.1#36036 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9c020108 127.0.0.1#36036 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9c020108 127.0.0.1#36036 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9c01e2e8 127.0.0.1#36036 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7ca004d978 127.0.0.1#41101 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7ca002e518 127.0.0.1#41101 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7ca002e518 127.0.0.1#41101 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7ca004d978 127.0.0.1#41101 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7caa1e0208 127.0.0.1#42215 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1dc3b8 127.0.0.1#42215 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7caa1dc3b8 127.0.0.1#42215 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1e0208 127.0.0.1#42215 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7ca004d978 127.0.0.1#48819 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7ca002e518 127.0.0.1#48819 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7ca002e518 127.0.0.1#48819 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7ca004d978 127.0.0.1#48819 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7ca004d978 127.0.0.1#53641 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7ca002e518 127.0.0.1#53641 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7ca002e518 127.0.0.1#53641 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7ca004d978 127.0.0.1#53641 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c94008d88 127.0.0.1#54206 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9400d328 127.0.0.1#54206 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9400d328 127.0.0.1#54206 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c94008d88 127.0.0.1#54206 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8c00e7d8 127.0.0.1#54861 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8c016158 127.0.0.1#54861 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8c016158 127.0.0.1#54861 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8c00e7d8 127.0.0.1#54861 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8800bd68 127.0.0.1#57263 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8800fbb8 127.0.0.1#57263 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8800fbb8 127.0.0.1#57263 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8800bd68 127.0.0.1#57263 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7ca004d978 127.0.0.1#48695 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7ca002e518 127.0.0.1#48695 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7ca002e518 127.0.0.1#48695 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7ca004d978 127.0.0.1#48695 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c90000cc8 127.0.0.1#50540 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c90005908 127.0.0.1#50540 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c90005908 127.0.0.1#50540 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c90005908 127.0.0.1#50540 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c94008d88 127.0.0.1#45401 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9400d328 127.0.0.1#45401 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9400d328 127.0.0.1#45401 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9400d328 127.0.0.1#45401 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7caa1e0208 127.0.0.1#54807 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1dc3b8 127.0.0.1#54807 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7caa1dc3b8 127.0.0.1#54807 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1dc3b8 127.0.0.1#54807 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9c01e2e8 127.0.0.1#50614 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9c01e2e8 127.0.0.1#50614 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9c01e2e8 127.0.0.1#50614 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9c01e2e8 127.0.0.1#50614 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7caa1dc3b8 127.0.0.1#47509 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1e0208 127.0.0.1#47509 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7caa1e0208 127.0.0.1#47509 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1dc3b8 127.0.0.1#47509 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7caa1dc3b8 127.0.0.1#57172 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1e0208 127.0.0.1#57172 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7caa1e0208 127.0.0.1#57172 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1dc3b8 127.0.0.1#57172 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c90005908 127.0.0.1#57513 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c90000cc8 127.0.0.1#57513 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c90000cc8 127.0.0.1#57513 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c90005908 127.0.0.1#57513 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8800bd68 127.0.0.1#38125 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8800fbb8 127.0.0.1#38125 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8800fbb8 127.0.0.1#38125 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8800bd68 127.0.0.1#38125 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c98001518 127.0.0.1#34519 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9804a5c8 127.0.0.1#34519 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9804a5c8 127.0.0.1#34519 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c98001518 127.0.0.1#34519 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7ca004d978 127.0.0.1#60033 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7ca002e518 127.0.0.1#60033 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7ca002e518 127.0.0.1#60033 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7ca004d978 127.0.0.1#60033 (incoming.telemetry.mozilla.org): query failed (SERVFAIL) for incoming.telemetry.mozilla.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c98001518 127.0.0.1#59371 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9804a5c8 127.0.0.1#59371 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9804a5c8 127.0.0.1#59371 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c98001518 127.0.0.1#59371 (incoming.telemetry.mozilla.org.boston.devel.redhat.com): query failed (SERVFAIL) for incoming.telemetry.mozilla.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+network unreachable resolving 'headscale.nfsv4.dev/AAAA/IN': 100.100.100.100#53
+network unreachable resolving 'headscale.nfsv4.dev/A/IN': 100.100.100.100#53
+client @0x7f7c8800bd68 127.0.0.1#39006 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f7caa1dc3b8 127.0.0.1#50800 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f7c90009c68 ::1#41459 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7caa1e7a68 ::1#34305 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8c00e7d8 127.0.0.1#37912 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9400d328 127.0.0.1#34871 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8802bac8 ::1#50339 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9c024de8 ::1#54074 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+network unreachable resolving 'headscale.nfsv4.dev.boston.devel.redhat.com/AAAA/IN': 10.200.0.245#53
+network unreachable resolving 'headscale.nfsv4.dev.boston.devel.redhat.com/A/IN': 10.200.0.245#53
+client @0x7f7ca004d978 127.0.0.1#58512 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f7c9c01e2e8 127.0.0.1#57841 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f7c90009c68 ::1#37847 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8c01e718 ::1#51509 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c98001518 127.0.0.1#60114 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9804a5c8 127.0.0.1#59059 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9804c338 ::1#56365 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7ca003ac18 ::1#52162 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1dc3b8 127.0.0.1#49898 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9400d328 127.0.0.1#60163 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9c024de8 ::1#34751 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8c01e718 ::1#38714 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7caa1dc3b8 127.0.0.1#47733 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8800bd68 127.0.0.1#41954 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9c024de8 ::1#55981 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c90009c68 ::1#43878 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8800bd68 127.0.0.1#33638 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9c01e2e8 127.0.0.1#37632 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1e7a68 ::1#55521 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8802bac8 ::1#49696 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7ca004d978 127.0.0.1#59828 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9804a5c8 127.0.0.1#40980 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8802bac8 ::1#56276 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c94017488 ::1#53634 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+network unreachable resolving 'headscale.nfsv4.dev/AAAA/IN': 100.100.100.100#53
+network unreachable resolving 'headscale.nfsv4.dev/A/IN': 100.100.100.100#53
+client @0x7f7c8c00e7d8 127.0.0.1#54205 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f7c9c01e2e8 127.0.0.1#58721 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f7caa1e7a68 ::1#52214 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8c01e718 ::1#39969 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8800bd68 127.0.0.1#56923 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7ca004d978 127.0.0.1#59485 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9804c338 ::1#34214 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c90009c68 ::1#43966 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+network unreachable resolving 'headscale.nfsv4.dev.boston.devel.redhat.com/AAAA/IN': 10.200.0.245#53
+network unreachable resolving 'headscale.nfsv4.dev.boston.devel.redhat.com/A/IN': 10.200.0.245#53
+client @0x7f7ca004d978 127.0.0.1#52607 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f7c9400d328 127.0.0.1#38694 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f7caa1e7a68 ::1#50457 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c94017488 ::1#46678 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8800bd68 127.0.0.1#49973 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9c01e2e8 127.0.0.1#60023 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c94017488 ::1#49490 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9c024de8 ::1#48580 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7ca004d978 127.0.0.1#46956 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8800bd68 127.0.0.1#34092 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c94017488 ::1#53259 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8c01e718 ::1#47860 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9400d328 127.0.0.1#44451 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c8800bd68 127.0.0.1#54343 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1e7a68 ::1#39064 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c94017488 ::1#52159 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7caa1dc3b8 127.0.0.1#50788 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c90005908 127.0.0.1#50521 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c90009c68 ::1#40706 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c9c024de8 ::1#36330 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c9c01e2e8 127.0.0.1#60777 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7ca004d978 127.0.0.1#42917 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f7c8c01e718 ::1#51157 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f7c90009c68 ::1#33575 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+received control channel command 'stop'
+no longer listening on 127.0.0.1#53
+no longer listening on ::1#53
+no longer listening on 172.16.0.1#53
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+exiting
+managed-keys-zone: loaded serial 206
+zone 0.in-addr.arpa/IN: loaded serial 0
+zone 1.0.0.127.in-addr.arpa/IN: loaded serial 0
+zone 10.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 9.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 11.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 6.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 7.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: loaded serial 0
+zone 8.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 1.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone localhost.localdomain/IN: loaded serial 0
+zone 4.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone ib.nfsv4bat.org/IN: loaded serial 201905130
+zone localhost/IN: loaded serial 0
+zone 12.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 3.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone roce.nfsv4bat.org/IN: loaded serial 201905130
+zone vlan.nfsv4bat.org/IN: loaded serial 201905130
+network unreachable resolving './DNSKEY/IN': 10.200.0.245#53
+zone 172.in-addr.arpa/IN: loaded serial 202210111
+zone 2.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 5.16.172.in-addr.arpa/IN: loaded serial 201107111
+managed-keys-zone: Unable to fetch DNSKEY set '.': SERVFAIL
+zone nfsv4bat.org/IN: loaded serial 201309271
+all zones loaded
+running
+listening on IPv4 interface br0, 172.16.0.1#53
+network unreachable resolving '2.rhel.pool.ntp.org/A/IN': 10.200.0.245#53
+network unreachable resolving '2.rhel.pool.ntp.org/AAAA/IN': 10.200.0.245#53
+client @0x7f52e4010ef8 127.0.0.1#45253 (2.rhel.pool.ntp.org): query failed (SERVFAIL) for 2.rhel.pool.ntp.org/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f52e4018a68 127.0.0.1#45253 (2.rhel.pool.ntp.org): query failed (SERVFAIL) for 2.rhel.pool.ntp.org/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f52e4018a68 127.0.0.1#45253 (2.rhel.pool.ntp.org): query failed (SERVFAIL) for 2.rhel.pool.ntp.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52e4010ef8 127.0.0.1#45253 (2.rhel.pool.ntp.org): query failed (SERVFAIL) for 2.rhel.pool.ntp.org/IN/AAAA at ../../../lib/ns/query.c:6658
+network unreachable resolving '2.rhel.pool.ntp.org.boston.devel.redhat.com/A/IN': 10.200.0.245#53
+client @0x7f52ec001b78 127.0.0.1#34768 (2.rhel.pool.ntp.org.boston.devel.redhat.com): query failed (SERVFAIL) for 2.rhel.pool.ntp.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:7388
+network unreachable resolving '2.rhel.pool.ntp.org.boston.devel.redhat.com/AAAA/IN': 10.200.0.245#53
+client @0x7f52ec005d68 127.0.0.1#34768 (2.rhel.pool.ntp.org.boston.devel.redhat.com): query failed (SERVFAIL) for 2.rhel.pool.ntp.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f52ec005d68 127.0.0.1#34768 (2.rhel.pool.ntp.org.boston.devel.redhat.com): query failed (SERVFAIL) for 2.rhel.pool.ntp.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52ec001b78 127.0.0.1#34768 (2.rhel.pool.ntp.org.boston.devel.redhat.com): query failed (SERVFAIL) for 2.rhel.pool.ntp.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f0001b68 127.0.0.1#39564 (2.rhel.pool.ntp.org): query failed (SERVFAIL) for 2.rhel.pool.ntp.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f0006e38 127.0.0.1#39564 (2.rhel.pool.ntp.org): query failed (SERVFAIL) for 2.rhel.pool.ntp.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f0006e38 127.0.0.1#39564 (2.rhel.pool.ntp.org): query failed (SERVFAIL) for 2.rhel.pool.ntp.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f0001b68 127.0.0.1#39564 (2.rhel.pool.ntp.org): query failed (SERVFAIL) for 2.rhel.pool.ntp.org/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e4010ef8 127.0.0.1#53721 (2.rhel.pool.ntp.org.boston.devel.redhat.com): query failed (SERVFAIL) for 2.rhel.pool.ntp.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52e4018a68 127.0.0.1#53721 (2.rhel.pool.ntp.org.boston.devel.redhat.com): query failed (SERVFAIL) for 2.rhel.pool.ntp.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e4018a68 127.0.0.1#53721 (2.rhel.pool.ntp.org.boston.devel.redhat.com): query failed (SERVFAIL) for 2.rhel.pool.ntp.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52e4010ef8 127.0.0.1#53721 (2.rhel.pool.ntp.org.boston.devel.redhat.com): query failed (SERVFAIL) for 2.rhel.pool.ntp.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+network unreachable resolving 'headscale.nfsv4.dev/A/IN': 100.100.100.100#53
+network unreachable resolving 'headscale.nfsv4.dev/AAAA/IN': 100.100.100.100#53
+client @0x7f52e4010ef8 127.0.0.1#50802 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f52fc002158 127.0.0.1#34345 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f52f000adf8 ::1#36141 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52e802bf08 ::1#45333 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e4010ef8 127.0.0.1#41063 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f53061d8208 127.0.0.1#33370 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52e401f858 ::1#45681 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f802b7c8 ::1#46565 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+network unreachable resolving 'headscale.nfsv4.dev.boston.devel.redhat.com/AAAA/IN': 10.200.0.245#53
+network unreachable resolving 'headscale.nfsv4.dev.boston.devel.redhat.com/A/IN': 10.200.0.245#53
+client @0x7f53061d8208 127.0.0.1#50980 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f52e8030e18 127.0.0.1#51349 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f52f000adf8 ::1#44733 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f4001b68 ::1#41721 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e8030e18 127.0.0.1#50490 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52e401f858 ::1#37762 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f4006e68 127.0.0.1#35929 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52ec00a6c8 ::1#33202 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e8030e18 127.0.0.1#40673 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52ec001b78 127.0.0.1#43573 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f4001b68 ::1#42291 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e401f858 ::1#59684 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f4006e68 127.0.0.1#46641 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f53061d8208 127.0.0.1#35197 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f4001b68 ::1#52943 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52fc0476b8 ::1#36690 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52ec001b78 127.0.0.1#46847 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52fc002158 127.0.0.1#34608 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f53061de208 ::1#45644 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f4006e68 127.0.0.1#36868 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f53061f10b8 ::1#57667 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f000adf8 ::1#58837 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e8030e18 127.0.0.1#53542 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f802b7c8 ::1#45598 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52e8030e18 127.0.0.1#45864 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52ec001b78 127.0.0.1#49867 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52fc0476b8 ::1#54575 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52ec00a6c8 ::1#42362 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52fc002158 127.0.0.1#44570 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f53061d8208 127.0.0.1#33661 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52e401f858 ::1#38720 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e4023788 ::1#60446 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52e8030e18 127.0.0.1#53523 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f53061d8208 127.0.0.1#33932 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f802b7c8 ::1#47060 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f000adf8 ::1#36141 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52fc002158 127.0.0.1#33617 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f4006e68 127.0.0.1#35168 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f802b7c8 ::1#56194 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52ec00a6c8 ::1#33198 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52fc002158 127.0.0.1#42325 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e8030e18 127.0.0.1#50935 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52fc0476b8 ::1#35217 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f53061f10b8 ::1#37784 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52e4010ef8 127.0.0.1#45026 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f80060f8 127.0.0.1#47251 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52fc0476b8 ::1#34199 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f000adf8 ::1#40717 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52fc002158 127.0.0.1#43884 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f4006e68 127.0.0.1#45936 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52fc0476b8 ::1#55883 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52e4010ef8 127.0.0.1#36434 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52fc04bc78 ::1#48938 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e4023788 ::1#49992 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52fc002158 127.0.0.1#36667 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e4023788 ::1#37754 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e4010ef8 127.0.0.1#55224 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f80060f8 127.0.0.1#59158 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e802bf08 ::1#34522 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f000adf8 ::1#42378 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52fc002158 127.0.0.1#58529 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e8030e18 127.0.0.1#41396 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f000adf8 ::1#41635 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52e4023788 ::1#54298 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f53061d8208 127.0.0.1#39535 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f80060f8 127.0.0.1#42274 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52fc04bc78 ::1#60787 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f53061f10b8 ::1#56738 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f53061d8208 127.0.0.1#53441 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f4001b68 ::1#42630 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f53061f5468 127.0.0.1#50221 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f53061f10b8 ::1#56478 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f80060f8 127.0.0.1#48682 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f0001b68 127.0.0.1#37304 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52ec00a6c8 ::1#57129 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f53061f10b8 ::1#39639 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f0001b68 127.0.0.1#33422 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f0006e38 127.0.0.1#57347 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52fc04bc78 ::1#33610 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f802b7c8 ::1#47395 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52e4010ef8 127.0.0.1#34374 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52ec001b78 127.0.0.1#37940 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52e802bf08 ::1#51362 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f4001b68 ::1#33288 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f80060f8 127.0.0.1#38792 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e4010ef8 127.0.0.1#37474 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52e802bf08 ::1#41736 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52ec00a6c8 ::1#42491 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f4006e68 127.0.0.1#41531 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e4010ef8 127.0.0.1#37375 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f000adf8 ::1#44179 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52fc04bc78 ::1#59275 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f53061f5468 127.0.0.1#43399 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52ec001b78 127.0.0.1#44043 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f000adf8 ::1#54200 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e4023788 ::1#38969 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f0006e38 127.0.0.1#34137 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52ec001b78 127.0.0.1#53497 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e802bf08 ::1#41537 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52ec00a6c8 ::1#59146 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f80060f8 127.0.0.1#59383 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52fc04bc78 ::1#57468 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f800a448 127.0.0.1#57157 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e802bf08 ::1#58435 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+network unreachable resolving '2.rhel.pool.ntp.org/A/IN': 10.200.0.245#53
+network unreachable resolving '2.rhel.pool.ntp.org/AAAA/IN': 10.200.0.245#53
+client @0x7f52e4010ef8 127.0.0.1#39297 (2.rhel.pool.ntp.org): query failed (SERVFAIL) for 2.rhel.pool.ntp.org/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f52e4018a68 127.0.0.1#39297 (2.rhel.pool.ntp.org): query failed (SERVFAIL) for 2.rhel.pool.ntp.org/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f52e4018a68 127.0.0.1#39297 (2.rhel.pool.ntp.org): query failed (SERVFAIL) for 2.rhel.pool.ntp.org/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52e4010ef8 127.0.0.1#39297 (2.rhel.pool.ntp.org): query failed (SERVFAIL) for 2.rhel.pool.ntp.org/IN/AAAA at ../../../lib/ns/query.c:6658
+network unreachable resolving '2.rhel.pool.ntp.org.boston.devel.redhat.com/A/IN': 10.200.0.245#53
+client @0x7f52f4006e68 127.0.0.1#49130 (2.rhel.pool.ntp.org.boston.devel.redhat.com): query failed (SERVFAIL) for 2.rhel.pool.ntp.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:7388
+network unreachable resolving '2.rhel.pool.ntp.org.boston.devel.redhat.com/AAAA/IN': 10.200.0.245#53
+client @0x7f52f400b488 127.0.0.1#49130 (2.rhel.pool.ntp.org.boston.devel.redhat.com): query failed (SERVFAIL) for 2.rhel.pool.ntp.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f52f400b488 127.0.0.1#49130 (2.rhel.pool.ntp.org.boston.devel.redhat.com): query failed (SERVFAIL) for 2.rhel.pool.ntp.org.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f4006e68 127.0.0.1#49130 (2.rhel.pool.ntp.org.boston.devel.redhat.com): query failed (SERVFAIL) for 2.rhel.pool.ntp.org.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+network unreachable resolving 'headscale.nfsv4.dev/A/IN': 100.100.100.100#53
+network unreachable resolving 'headscale.nfsv4.dev/AAAA/IN': 100.100.100.100#53
+client @0x7f52e8030e18 127.0.0.1#42166 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f52f0006e38 127.0.0.1#56388 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f52f4001b68 ::1#52687 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f802b7c8 ::1#33959 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f0006e38 127.0.0.1#57453 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f0001b68 127.0.0.1#49977 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52ec00a6c8 ::1#50999 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f000adf8 ::1#50116 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+network unreachable resolving 'headscale.nfsv4.dev.boston.devel.redhat.com/AAAA/IN': 10.200.0.245#53
+network unreachable resolving 'headscale.nfsv4.dev.boston.devel.redhat.com/A/IN': 10.200.0.245#53
+client @0x7f52e4010ef8 127.0.0.1#41894 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f52e8030e18 127.0.0.1#53478 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f52f4001b68 ::1#55134 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f000adf8 ::1#60690 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f800a448 127.0.0.1#50774 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e8030e18 127.0.0.1#52985 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f000adf8 ::1#41374 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e4023788 ::1#39894 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52e4010ef8 127.0.0.1#49844 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f4006e68 127.0.0.1#59388 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52ec00a6c8 ::1#48863 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e802bf08 ::1#37224 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f0001b68 127.0.0.1#35403 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52fc002158 127.0.0.1#43797 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52ec00a6c8 ::1#50003 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e4023788 ::1#49378 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52ec001b78 127.0.0.1#33202 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f800a448 127.0.0.1#50828 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52ec00a6c8 ::1#51798 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e802bf08 ::1#47612 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52ec001b78 127.0.0.1#55234 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f4006e68 127.0.0.1#41883 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f4001b68 ::1#45788 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f400f388 ::1#38862 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+network unreachable resolving 'headscale.nfsv4.dev/A/IN': 100.100.100.100#53
+network unreachable resolving 'headscale.nfsv4.dev/AAAA/IN': 100.100.100.100#53
+client @0x7f52f0001b68 127.0.0.1#54679 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f52f0006e38 127.0.0.1#36407 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f52fc04bc78 ::1#48727 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f000adf8 ::1#39164 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52fc002158 127.0.0.1#55018 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52ec001b78 127.0.0.1#33361 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e4023788 ::1#36391 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f400f388 ::1#47160 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+network unreachable resolving 'headscale.nfsv4.dev.boston.devel.redhat.com/AAAA/IN': 10.200.0.245#53
+network unreachable resolving 'headscale.nfsv4.dev.boston.devel.redhat.com/A/IN': 10.200.0.245#53
+client @0x7f52f0006e38 127.0.0.1#43424 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f52f0001b68 127.0.0.1#58289 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f52f000adf8 ::1#35566 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f400f388 ::1#45519 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f4006e68 127.0.0.1#58734 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f53061f5468 127.0.0.1#53159 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52ec00a6c8 ::1#55181 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f000adf8 ::1#44329 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+network unreachable resolving 'headscale.nfsv4.dev/AAAA/IN': 100.100.100.100#53
+network unreachable resolving 'headscale.nfsv4.dev/A/IN': 100.100.100.100#53
+client @0x7f52e8030e18 127.0.0.1#39071 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f52ec001b78 127.0.0.1#46450 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f52f000adf8 ::1#40246 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52ec00a6c8 ::1#40655 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52e4010ef8 127.0.0.1#56521 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f53061f5468 127.0.0.1#48076 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f53061f10b8 ::1#47314 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f400f388 ::1#33412 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+network unreachable resolving 'headscale.nfsv4.dev.boston.devel.redhat.com/AAAA/IN': 10.200.0.245#53
+network unreachable resolving 'headscale.nfsv4.dev.boston.devel.redhat.com/A/IN': 10.200.0.245#53
+client @0x7f52f4006e68 127.0.0.1#38560 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f52f0001b68 127.0.0.1#55028 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f52fc04bc78 ::1#60525 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e802bf08 ::1#50262 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52e8030e18 127.0.0.1#59951 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52ec001b78 127.0.0.1#40578 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52fc04bc78 ::1#59235 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e4023788 ::1#40092 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f0001b68 127.0.0.1#56125 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e4010ef8 127.0.0.1#34684 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52ec00a6c8 ::1#58738 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f802b7c8 ::1#44452 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e4010ef8 127.0.0.1#57736 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f53061f5468 127.0.0.1#50703 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52ec00a6c8 ::1#56870 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52e802bf08 ::1#57555 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f4006e68 127.0.0.1#48577 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52ec001b78 127.0.0.1#51170 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f400f388 ::1#56540 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f53061f10b8 ::1#38826 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f0001b68 127.0.0.1#54964 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f4006e68 127.0.0.1#33607 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f802b7c8 ::1#51411 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52ec00a6c8 ::1#52788 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+network unreachable resolving 'headscale.nfsv4.dev/AAAA/IN': 100.100.100.100#53
+network unreachable resolving 'headscale.nfsv4.dev/A/IN': 100.100.100.100#53
+client @0x7f52fc002158 127.0.0.1#60817 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f52f000adf8 ::1#36518 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f800a448 127.0.0.1#57249 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f400f388 ::1#39312 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52fc04d9e8 127.0.0.1#57219 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f52e4023788 ::1#34793 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52fc04d9e8 127.0.0.1#43937 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f53061f10b8 ::1#39570 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+network unreachable resolving 'headscale.nfsv4.dev.boston.devel.redhat.com/AAAA/IN': 10.200.0.245#53
+network unreachable resolving 'headscale.nfsv4.dev.boston.devel.redhat.com/A/IN': 10.200.0.245#53
+client @0x7f52ec001b78 127.0.0.1#56228 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f52f800a448 127.0.0.1#59077 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f52f000adf8 ::1#34549 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52e802bf08 ::1#38387 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f53061f5468 127.0.0.1#48609 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f800a448 127.0.0.1#49125 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f53061f10b8 ::1#52196 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52e802bf08 ::1#44486 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+network unreachable resolving 'headscale.nfsv4.dev/AAAA/IN': 100.100.100.100#53
+network unreachable resolving 'headscale.nfsv4.dev/A/IN': 100.100.100.100#53
+client @0x7f52e8030e18 127.0.0.1#46591 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f52e4010ef8 127.0.0.1#56034 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f52ec00a6c8 ::1#40136 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52fc04bc78 ::1#50214 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52e4010ef8 127.0.0.1#39110 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f0001b68 127.0.0.1#40121 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52e802bf08 ::1#42016 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e8035ec8 ::1#60513 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+network unreachable resolving 'headscale.nfsv4.dev.boston.devel.redhat.com/AAAA/IN': 10.200.0.245#53
+network unreachable resolving 'headscale.nfsv4.dev.boston.devel.redhat.com/A/IN': 10.200.0.245#53
+client @0x7f52fc04d9e8 127.0.0.1#60382 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f53061f5468 127.0.0.1#32794 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f52f000adf8 ::1#52361 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52fc04bc78 ::1#45267 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f0001b68 127.0.0.1#57071 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e8030e18 127.0.0.1#47829 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52e8035ec8 ::1#42769 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f53061f10b8 ::1#34467 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+network unreachable resolving 'headscale.nfsv4.dev/A/IN': 100.100.100.100#53
+network unreachable resolving 'headscale.nfsv4.dev/AAAA/IN': 100.100.100.100#53
+client @0x7f52fc04d9e8 127.0.0.1#33314 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f52e4010ef8 127.0.0.1#57307 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f52f400f388 ::1#36059 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52ec00a6c8 ::1#44602 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52e8030e18 127.0.0.1#55342 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e4023788 ::1#46667 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52e8037c38 127.0.0.1#40273 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f000adf8 ::1#53270 (headscale.nfsv4.dev): query failed (SERVFAIL) for headscale.nfsv4.dev/IN/A at ../../../lib/ns/query.c:6658
+network unreachable resolving 'headscale.nfsv4.dev.boston.devel.redhat.com/AAAA/IN': 10.200.0.245#53
+network unreachable resolving 'headscale.nfsv4.dev.boston.devel.redhat.com/A/IN': 10.200.0.245#53
+client @0x7f52fc04d9e8 127.0.0.1#45561 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7f52fc002158 127.0.0.1#38777 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:7388
+client @0x7f52e8035ec8 ::1#43777 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52fc04bc78 ::1#43832 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52f800a448 127.0.0.1#48927 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f80060f8 127.0.0.1#57361 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+client @0x7f52e8035ec8 ::1#48089 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7f52f400f388 ::1#57658 (headscale.nfsv4.dev.boston.devel.redhat.com): query failed (SERVFAIL) for headscale.nfsv4.dev.boston.devel.redhat.com/IN/A at ../../../lib/ns/query.c:6658
+received control channel command 'stop'
+no longer listening on 127.0.0.1#53
+no longer listening on ::1#53
+no longer listening on 172.16.0.1#53
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+exiting
+managed-keys-zone: loaded serial 207
+zone 1.0.0.127.in-addr.arpa/IN: loaded serial 0
+zone 0.in-addr.arpa/IN: loaded serial 0
+zone 12.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 3.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 10.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone localhost.localdomain/IN: loaded serial 0
+zone 2.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 5.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 11.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 7.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 6.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 4.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 1.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 9.16.172.in-addr.arpa/IN: loaded serial 201107111
+network unreachable resolving './DNSKEY/IN': 10.200.0.245#53
+managed-keys-zone: Unable to fetch DNSKEY set '.': SERVFAIL
+zone roce.nfsv4bat.org/IN: loaded serial 201905130
+zone vlan.nfsv4bat.org/IN: loaded serial 201905130
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: loaded serial 0
+zone localhost/IN: loaded serial 0
+zone ib.nfsv4bat.org/IN: loaded serial 201905130
+zone 172.in-addr.arpa/IN: loaded serial 202210111
+zone 8.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone nfsv4bat.org/IN: loaded serial 201309271
+all zones loaded
+running
+listening on IPv4 interface br0, 172.16.0.1#53
+managed-keys-zone: Key 20326 for zone . is now trusted (acceptance timer complete)
+received control channel command 'stop'
+no longer listening on 127.0.0.1#53
+no longer listening on ::1#53
+no longer listening on 172.16.0.1#53
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+exiting
+managed-keys-zone: loaded serial 209
+zone 0.in-addr.arpa/IN: loaded serial 0
+zone 1.0.0.127.in-addr.arpa/IN: loaded serial 0
+zone 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa/IN: loaded serial 0
+zone 5.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 1.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 2.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 10.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 4.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 3.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone localhost.localdomain/IN: loaded serial 0
+zone 8.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 12.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 6.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 7.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 9.16.172.in-addr.arpa/IN: loaded serial 201107111
+zone 172.in-addr.arpa/IN: loaded serial 202210111
+zone localhost/IN: loaded serial 0
+network unreachable resolving './DNSKEY/IN': 10.200.0.245#53
+zone 11.16.172.in-addr.arpa/IN: loaded serial 201107111
+managed-keys-zone: Unable to fetch DNSKEY set '.': SERVFAIL
+zone ib.nfsv4bat.org/IN: loaded serial 201905130
+zone vlan.nfsv4bat.org/IN: loaded serial 201905130
+zone nfsv4bat.org/IN: loaded serial 201309271
+zone roce.nfsv4bat.org/IN: loaded serial 201905130
+all zones loaded
+running
+listening on IPv4 interface br0, 172.16.0.1#53
+managed-keys-zone: Key 20326 for zone . is now trusted (acceptance timer complete)
+managed-keys-zone: Key 20326 for zone . is now trusted (acceptance timer complete)
+managed-keys-zone: Key 20326 for zone . is now trusted (acceptance timer complete)
+client @0x7faef8002748 172.16.1.112#52937 (_kerberos.batman.nfsv4.org): query failed (SERVFAIL) for _kerberos.batman.nfsv4.org/IN/TXT at ../../../lib/ns/query.c:7388
+client @0x7faef8002748 172.16.1.112#52937 (_kerberos.batman.nfsv4.org): query failed (SERVFAIL) for _kerberos.batman.nfsv4.org/IN/TXT at ../../../lib/ns/query.c:6658
+client @0x7faef8002748 172.16.1.112#52937 (_kerberos.batman.nfsv4.org): query failed (SERVFAIL) for _kerberos.batman.nfsv4.org/IN/TXT at ../../../lib/ns/query.c:6658
+client @0x7faf04021438 172.16.1.112#55584 (_kerberos.nfsv4.org): query failed (SERVFAIL) for _kerberos.nfsv4.org/IN/TXT at ../../../lib/ns/query.c:7388
+client @0x7faf04021438 172.16.1.112#55584 (_kerberos.nfsv4.org): query failed (SERVFAIL) for _kerberos.nfsv4.org/IN/TXT at ../../../lib/ns/query.c:6658
+client @0x7faf04021438 172.16.1.112#55584 (_kerberos.nfsv4.org): query failed (SERVFAIL) for _kerberos.nfsv4.org/IN/TXT at ../../../lib/ns/query.c:6658
+client @0x7faf0400a5a8 172.16.1.112#36396 (trace.mediago.io): query failed (SERVFAIL) for trace.mediago.io/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7faf0400a5a8 172.16.1.112#36396 (trace.mediago.io): query failed (SERVFAIL) for trace.mediago.io/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7faf0400a5a8 172.16.1.112#36396 (trace.mediago.io): query failed (SERVFAIL) for trace.mediago.io/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7faf12281428 172.16.1.112#52849 (trace.mediago.io): query failed (SERVFAIL) for trace.mediago.io/IN/AAAA at ../../../lib/ns/query.c:7388
+client @0x7faf12281428 172.16.1.112#52849 (trace.mediago.io): query failed (SERVFAIL) for trace.mediago.io/IN/AAAA at ../../../lib/ns/query.c:6658
+client @0x7faf12281428 172.16.1.112#52849 (trace.mediago.io): query failed (SERVFAIL) for trace.mediago.io/IN/AAAA at ../../../lib/ns/query.c:6658
+received control channel command 'stop'
+no longer listening on 127.0.0.1#53
+no longer listening on ::1#53
+no longer listening on 172.16.0.1#53
+shutting down: flushing changes
+stopping command channel on 127.0.0.1#953
+stopping command channel on ::1#953
+exiting
