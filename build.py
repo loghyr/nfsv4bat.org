@@ -60,7 +60,7 @@ def build():
         if not os.path.exists(dest_dir):
             os.makedirs(dest_dir)
             
-        print("Building %s -> %s" % (src_path, dest_path))
+        print "Building %s -> %s" % (src_path, dest_path)
         
         with open(src_path, 'r') as f:
             content = f.read()

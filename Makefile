@@ -3,7 +3,7 @@
 #
 
 all:
-	python3 build.py
+	python build.py
 	cp -r src/style/ .
 
 clean:
