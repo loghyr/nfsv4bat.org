@@ -28,10 +28,12 @@ certbot certonly --webroot -w ~/nfsv4bat.org -d nfsv4bat.org -d www.nfsv4bat.org
 ```
 
 ### Automated Renewal
-The `update.sh` script on the server should include a renewal check:
-```bash
-certbot renew --config-dir ~/certbot/config --work-dir ~/certbot/work --logs-dir ~/certbot/logs
-```
+The automated build and renewal process is managed by the `update.sh` script in the root of the repository.
+
+To set it up on the server:
+1. Copy or symlink the script to your home directory: `ln -s ~/nfsv4bat.org/update.sh ~/update.sh`
+2. Ensure it's executable: `chmod +x ~/update.sh`
+3. Add it to your crontab: `13 */8 * * * ~/update.sh`
 
 
 The `make` command:
