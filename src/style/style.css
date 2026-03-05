@@ -127,9 +127,15 @@ margin-top: 0px;
 margin-left: 2px;
 margin-bottom: 20px;
 text-align: center;
-color: #000000;
 }
 
+#lastbuilt {
+	margin-top: 20px;
+	font-size: 10px;
+	color: #666;
+	border-top: 1px solid #ccc;
+	padding-top: 10px;
+}
 
 #leftnav a:link {
 color: #FF0000;
