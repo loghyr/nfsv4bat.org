@@ -49,13 +49,11 @@ def get_event_list():
             year = int("20" + year_short)
             month_name = MONTH_MAP.get(month_num, 'Unknown')
             path = get_dest_path(filename)
-            # Sortable key: (Year, MonthNum)
             events.append({
                 'key': (year, int(month_num)),
                 'label': "%s %s BAT" % (month_name, year),
                 'url': "/" + path
             })
-    # Sort newest first
     events.sort(key=lambda x: x['key'], reverse=True)
     return events
 
@@ -64,11 +62,19 @@ def build():
     build_date = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     event_list = get_event_list()
     
-    # Generate the HTML for the automated list
-    auto_html = "<!-- AUTO_EVENTS_START -->\n"
-    for ev in event_list:
-        auto_html += '    <li><a href="%s">%s</a></li>\n' % (ev['url'], ev['label'])
-    auto_html += "    <!-- AUTO_EVENTS_END -->"
+    # Split events: First one is "On Deck", rest are "Past"
+    on_deck_html = ""
+    past_html = ""
+    
+    if event_list:
+        on_deck = event_list[0]
+        on_deck_html = '    <li><a href="%s">%s</a></li>\n' % (on_deck['url'], on_deck['label'])
+        
+        for ev in event_list[1:]:
+            past_html += '    <li><a href="%s">%s</a></li>\n' % (ev['url'], ev['label'])
+
+    # Compatibility for pages that just use <!-- AUTO_EVENTS -->
+    full_list_html = on_deck_html + past_html
 
     # Process all .html files in src/
     for filename in os.listdir(SRC_DIR):
@@ -92,9 +98,10 @@ def build():
         with open(src_path, 'r') as f:
             content = f.read()
             
-        # Inject the automated event list if markers exist
-        if "<!-- AUTO_EVENTS -->" in content:
-            content = content.replace("<!-- AUTO_EVENTS -->", auto_html)
+        # Inject using the new markers
+        content = content.replace("<!-- AUTO_EVENTS_ON_DECK -->", on_deck_html)
+        content = content.replace("<!-- AUTO_EVENTS_PAST -->", past_html)
+        content = content.replace("<!-- AUTO_EVENTS -->", full_list_html)
             
         final_html = layout.replace('{{ content }}', content)
         final_html = final_html.replace('{{ build_date }}', build_date)
