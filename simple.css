@@ -1,0 +1,126 @@
+/* simple.css - a simple style sheet */
+body {
+	color: #33FF00;
+	background: black;
+}
+
+:link {
+	color: #FFFFFF
+}
+
+:visited {
+	color: #FFFF00
+}
+
+a:active {
+	color: #FF3300
+}
+
+a:hover {
+	color: #00FFFF
+}
+
+div#payload {
+	margin:0 auto;
+	padding:0 13px;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align:left;
+	border-style: solid;
+	border-width: thin;
+	border-color: #ffffcc;
+	border-collapse: collapse;
+}
+
+div#comic {
+	margin:0 auto;
+	padding:0 13px;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+div#sitecopyright {
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: x-small;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 4px;
+	border:1px solid #ffffcc;
+}	
+
+div#title {
+	font-size: x-large;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 4px;
+}	
+
+div#author {
+	font-size: large;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 4px;
+}	
+
+div#copyright {
+	font-size: small;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 4px;
+}	
+
+div#titlebox {
+	margin-left: 20%;
+	margin-right: 20%;
+	border:1px solid #ffffcc;
+	margin-top: 10px;
+	margin-bottom: 4px;
+}
+
+div#technorati {
+	margin-left: 20%;
+	margin-right: 20%;
+	border:1px solid #ffffcc;
+	margin-top: 10px;
+	margin-bottom: 4px;
+}
+
+#linkList {
+	position:absolute;
+	top:200;
+	left:20px;
+	width:207px;
+	z-index:5;
+}
+
+#lselect, #lwebcomics {
+	margin:0 0 2px 0;
+}
+
+#linkList li {
+	font-size: small;
+	list-style:none;
+}
+
+#linkList li a {
+	padding-left:3px;
+	text-decoration:none;
+}
+
+#linkList li a:hover {
+	text-decoration:underline;
+}
+
+#lselect li a {
+	display:block;
+	background-position:0 0.6em;
+}
+
+#lselect .c {
+	display:inline;
+	color:#666666;
+	padding:0;
+	background:none;
+	background-color:#ffffff;
+}
