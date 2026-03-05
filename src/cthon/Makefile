@@ -1,14 +1,13 @@
 #
-# Copyright (C) Tom Haynes - tdh@excfb.com (2013)
+# Copyright (C) Tom Haynes - loghyr@gmail.com (2013)
 #
 
-CP=/bin/cp -f
-RM=/bin/rm -f
-CAT=/bin/cat
-MKDIR=/bin/mkdir -p
-#SED=/bin/sed
+CP=cp -f
+RM=rm -f
+CAT=cat
+MKDIR=mkdir -p
 SED=sed
-ECHO=/bin/echo
+ECHO=echo
 
 #
 # Assumes DESTROOT exists
