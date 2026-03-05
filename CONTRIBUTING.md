@@ -18,16 +18,21 @@ If you notice the site is not updating or there are build errors:
 - **Contact:** loghyr@gmail.com
 - **Check the "Last Built" link:** The left navigation menu on the live site shows the last time the build successfully ran.
 
-## Build Process Details
+## SSL Certificates (HTTPS)
 
-The host runs the following script (`update.sh`) via cron:
+The site uses Let's Encrypt via `certbot` in webroot mode. Because we don't have root access, certbot stores its data in `~/certbot`.
 
+### Manual Renewal/Setup
 ```bash
-#!/bin/sh
-cd ~/nfsv4bat.org
-/usr/bin/git pull https://github.com/loghyr/nfsv4bat.org.git
-make
+certbot certonly --webroot -w ~/nfsv4bat.org -d nfsv4bat.org -d www.nfsv4bat.org --config-dir ~/certbot/config --work-dir ~/certbot/work --logs-dir ~/certbot/logs
 ```
+
+### Automated Renewal
+The `update.sh` script on the server should include a renewal check:
+```bash
+certbot renew --config-dir ~/certbot/config --work-dir ~/certbot/work --logs-dir ~/certbot/logs
+```
+
 
 The `make` command:
 1. Generates a timestamp.
