@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+from __future__ import print_function
 import os
 import re
 from datetime import datetime
@@ -60,7 +61,7 @@ def build():
         if not os.path.exists(dest_dir):
             os.makedirs(dest_dir)
             
-        print "Building %s -> %s" % (src_path, dest_path)
+        print("Building %s -> %s" % (src_path, dest_path))
         
         with open(src_path, 'r') as f:
             content = f.read()
