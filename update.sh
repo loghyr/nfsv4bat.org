@@ -11,9 +11,10 @@ make
 
 # 3. Renew SSL Certificates
 # Certbot only performs a renewal if the certificate is within 30 days of expiry.
-# The --post-hook ensures Apache can read the new certs if they are updated.
+# The --post-hook runs only after a successful renewal to fix permissions 
+# and reload the web server.
 certbot renew \
   --config-dir ~/certbot/config \
   --work-dir ~/certbot/work \
   --logs-dir ~/certbot/logs \
-  --post-hook "chmod -R 755 ~/certbot/config/live ~/certbot/config/archive"
+  --post-hook "chmod -R 755 ~/certbot/config/live ~/certbot/config/archive && sudo /usr/bin/systemctl --system reload httpd.service"
